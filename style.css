@@ -1,39 +1,35 @@
- /* 🔹 Hlavní kontejner */
-    #woldoshop-contact {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+/* 🔹 Hlavní kontejner */
+  #woldoshop-contact {
+     max-width: 1400px;
+     margin: 0 auto;
+     padding: 20px;
+}
+/* 📌 Desktop verze - Formulář + text vedle sebe */
+  #woldoshop-contact .contact-section {
+     display: flex;
+     align-items: flex-start;
+     gap: 40px; /* Mezera mezi formulářem a textem */
+ }
+/* 🔹 Formulář na desktopu */
+  #woldoshop-contact .contact-form-box {
+     width: 650px; /* Pevná šířka formuláře na desktopu */
+ }
+/* 🔹 Textová část */
+  #woldoshop-contact .contact-info-box {
+     flex: 1; /* Zabere zbylý prostor */
+ }
+/* 📱 Responzivní úprava pro mobil */
+  @media (max-width: 768px) {
+     #woldoshop-contact .contact-section {
+       flex-direction: column; /* Přepne na sloupce */
+       gap: 50px; /* Větší mezera mezi formulářem a textem */
+}
+/* Formulář na mobilu bude přes celou šířku */
+   #woldoshop-contact .contact-form-box {
+       width: 100%;
+   }
+}
 
-    /* 📌 Desktop verze - Formulář + text vedle sebe */
-    #woldoshop-contact .contact-section {
-        display: flex;
-        align-items: flex-start;
-        gap: 40px; /* Mezera mezi formulářem a textem */
-    }
-
-    /* 🔹 Formulář na desktopu */
-    #woldoshop-contact .contact-form-box {
-        width: 650px; /* Pevná šířka formuláře na desktopu */
-    }
-
-    /* 🔹 Textová část */
-    #woldoshop-contact .contact-info-box {
-        flex: 1; /* Zabere zbylý prostor */
-    }
-
-    /* 📱 Responzivní úprava pro mobil */
-    @media (max-width: 768px) {
-        #woldoshop-contact .contact-section {
-            flex-direction: column; /* Přepne na sloupce */
-            gap: 50px; /* Větší mezera mezi formulářem a textem */
-        }
-
-        /* Formulář na mobilu bude přes celou šířku */
-        #woldoshop-contact .contact-form-box {
-            width: 100%;
-        }
-    }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #24342C;
 }
