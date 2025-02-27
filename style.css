@@ -7,15 +7,15 @@ body {
 
 /* 🔹 Kontejner pro stránku – omezení šířky */
 #custom-page {
-    max-width: 800px; /* Omezení šířky textového obsahu */
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center; /* Zarovnání nadpisů */
+    text-align: center;
 }
 
 /* 🔹 Kontejner pro obrázky */
 #custom-image-section {
-    max-width: 900px; /* Omezení celkové šířky sekce */
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -74,17 +74,35 @@ body {
     color: white;
     padding: 15px;
     transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
-    height: 70px; /* Zvýšená výška pole */
+    height: 70px; /* Výška jen pro nadpis */
     display: flex;
-    align-items: center; /* Vycentrování textu */
-    justify-content: center; /* Vycentrování textu */
-    text-align: center; /* Zarovnání textu */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
-/* 🔹 Po najetí se pole zvětší */
+/* 🔹 Nadpis zůstává viditelný */
+.image-text h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* 🔹 Doplňující text je skrytý a objeví se při hover efektu */
+.image-text p {
+    opacity: 0;
+    margin: 5px 0 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* 🔹 Po najetí se pole zvětší a zobrazí text */
 .image-item:hover .image-text {
-    height: 120px;
+    height: 120px; /* Zvětšené pole */
     padding: 20px;
+}
+
+.image-item:hover .image-text p {
+    opacity: 1; /* Zobrazí doplňující text */
 }
 
 /* 📱 Responzivita pro mobil */
@@ -99,7 +117,6 @@ body {
         height: 200px;
     }
 }
-
 
 
 
