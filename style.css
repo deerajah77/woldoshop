@@ -5,54 +5,45 @@ body {
     padding: 0;
 }
 
-/* 🔹 Hlavní kontejner */
-#custom-page {
-    max-width: 1000px;
+/* 🔹 Kontejner pro obrázky */
+#custom-image-section {
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
 }
 
-h4 {
-    text-align: left;
-}
-
-h3 {
-    text-align: center;
-}
-
-p {
-    line-height: 1.6;
-}
-
-/* 🔹 Grid pro obrázky */
-#custom-image-section .image-grid {
-    /*display: grid;*/
+/* 🔹 Řádky obrázků */
+.image-row {
+    display: flex;
     gap: 15px;
+    margin-bottom: 15px;
 }
 
-/* Každá řada bude obsahovat dvě různé šířky */
-#custom-image-section .row {
-    /*display: grid;*/
-    grid-template-columns: 1.6fr 0.8fr;
-    gap: 15px;
-    width: 100%;
-}
-
-#custom-image-section .row:nth-child(2) {
-    grid-template-columns: 0.8fr 1.6fr;
+/* 🔹 Druhá řada – obrázky otočené */
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 /* 🔹 Obrázky – stejná výška, různé šířky */
-#custom-image-section .image-item {
+.image-item {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
     height: 200px;
-    width: 100%;
 }
 
-#custom-image-section .image-item img {
+/* Velký obrázek */
+.big-image {
+    flex: 2; /* Zabírá více prostoru */
+}
+
+/* Malý obrázek */
+.small-image {
+    flex: 1; /* Zabírá méně prostoru */
+}
+
+/* 🔹 Stylizace obrázků */
+.image-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -61,12 +52,12 @@ p {
 }
 
 /* 🔹 Efekt hover na obrázek */
-#custom-image-section .image-item:hover img {
+.image-item:hover img {
     transform: scale(1.05);
 }
 
 /* 🔹 Textový box přes obrázek */
-#custom-image-section .image-text {
+.image-text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -80,28 +71,24 @@ p {
     text-align: left;
 }
 
-#custom-image-section .image-item:hover .image-text {
+.image-item:hover .image-text {
     height: 100px;
     padding: 20px;
 }
 
 /* 📱 Responzivita pro mobil */
 @media (max-width: 768px) {
-    #custom-image-section .image-grid {
-        display: flex;
+    .image-row {
         flex-direction: column;
     }
 
-    #custom-image-section .row {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #custom-image-section .image-item {
+    .big-image, .small-image {
+        flex: none;
         width: 100%;
         height: 200px;
     }
 }
+
 
 
 
