@@ -14,7 +14,7 @@
 
     /* 🔹 Formulář na desktopu */
     #woldoshop-contact .contact-form-box {
-        width: 350px; /* Pevná šířka formuláře na desktopu */
+        width: 850px; /* Pevná šířka formuláře na desktopu */
     }
 
     /* 🔹 Kontaktní text - BAREVNÉ POZADÍ + KULATÉ ROHY */
@@ -24,7 +24,7 @@
         background-color: #f8f8f8; /* Světle šedé pozadí */
         border-radius: 10px; /* Kulaté rohy */
         padding: 20px; /* Vnitřní odsazení */
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05); /* Jemný stín pro efekt hloubky */
+       /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05); /* Jemný stín pro efekt hloubky */
     }
 
     /* 📱 Responzivní úprava pro mobil */
