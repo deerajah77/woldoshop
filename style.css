@@ -1,10 +1,3 @@
-h4 {
-    text-align: left;
-}
-
-h3 {
-    text-align: center;
-}
 /* 🔹 Celá stránka */
 body {
     font-family: Arial, sans-serif;
@@ -12,9 +5,17 @@ body {
     padding: 0;
 }
 
+/* 🔹 Kontejner pro stránku – omezení šířky */
+#custom-page {
+    max-width: 800px; /* Omezení šířky textového obsahu */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Zarovnání nadpisů */
+}
+
 /* 🔹 Kontejner pro obrázky */
 #custom-image-section {
-    max-width: 900px;
+    max-width: 900px; /* Omezení celkové šířky sekce */
     margin: 0 auto;
     padding: 20px;
 }
@@ -41,12 +42,12 @@ body {
 
 /* Velký obrázek */
 .big-image {
-    flex: 2; /* Zabírá více prostoru */
+    flex: 2;
 }
 
 /* Malý obrázek */
 .small-image {
-    flex: 1; /* Zabírá méně prostoru */
+    flex: 1;
 }
 
 /* 🔹 Stylizace obrázků */
@@ -73,13 +74,16 @@ body {
     color: white;
     padding: 15px;
     transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
-    height: 50px;
-    overflow: hidden;
-    text-align: left;
+    height: 70px; /* Zvýšená výška pole */
+    display: flex;
+    align-items: center; /* Vycentrování textu */
+    justify-content: center; /* Vycentrování textu */
+    text-align: center; /* Zarovnání textu */
 }
 
+/* 🔹 Po najetí se pole zvětší */
 .image-item:hover .image-text {
-    height: 100px;
+    height: 120px;
     padding: 20px;
 }
 
@@ -95,8 +99,6 @@ body {
         height: 200px;
     }
 }
-
-
 
 
 
