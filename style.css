@@ -208,8 +208,8 @@ body {
     background: rgba(249, 250, 251, 0.65);
     color: white;
     padding: 10px;
-    transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
-    height: 70px;
+    transition: height 0.3s ease-in-out, padding 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    height: 70px; /* Výška jen pro nadpis */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,15 +217,29 @@ body {
     flex-direction: column;
 }
 
+/* 🔹 Nadpis zůstává viditelný */
+.image-text h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* 🔹 Doplňující text je skrytý a zobrazí se pouze při hover efektu */
+.image-text p {
+    opacity: 0;
+    margin: 5px 0 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
 /* 🔹 Po najetí se pole zvětší a zobrazí text */
 .image-item:hover .image-text {
-    height: 100px;
+    height: 100px; /* Zvětšené pole */
     padding: 20px;
 }
 
 .image-item:hover .image-text p {
-    opacity: 1;
+    opacity: 1; /* Zobrazí doplňující text */
 }
+
 
 /* 📱 Opravená responzivita pro mobil */
 @media (max-width: 768px) {
