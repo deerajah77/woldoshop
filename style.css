@@ -19,7 +19,7 @@
     width: 100%;
     max-width: 250px; /* Maximální šířka */
     height: 180px; /* Stejná výška pro všechny */
-    object-fit: cover; /* Oříznutí obrázku tak, aby se zachoval poměr */
+    /*object-fit: cover; /* Oříznutí obrázku tak, aby se zachoval poměr */
     display: block;
     margin: 0 auto;
 }
