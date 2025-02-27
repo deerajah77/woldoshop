@@ -10,11 +10,10 @@
 /* 🔹 Jednotlivé boxy */
 #custom-info-section .custom-info-box {
     flex: 1; /* Stejná šířka pro všechny boxy */
-    background-color: #f8f8f8; /* Světle šedé podbarvení */
+    background-color: #d1dd78; /* Světle šedé podbarvení */
     padding: 20px;
     border-radius: 10px; /* Zaoblené rohy */
     text-align: center;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Jemný stín */
 }
 
 /* 📱 Responzivita pro mobil */
