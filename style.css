@@ -1,6 +1,6 @@
- /* 🔹 Hlavní kontejner */
+  /* 🔹 Hlavní kontejner */
     #woldoshop-contact {
-        max-width: 1800px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -9,24 +9,28 @@
     #woldoshop-contact .contact-section {
         display: flex;
         align-items: flex-start;
-        gap: 60px; /* Mezera mezi formulářem a textem */
+        gap: 40px; /* Mezera mezi formulářem a textem */
     }
 
     /* 🔹 Formulář na desktopu */
     #woldoshop-contact .contact-form-box {
-        width: 1250px; /* Pevná šířka formuláře na desktopu */
+        width: 350px; /* Pevná šířka formuláře na desktopu */
     }
 
-    /* 🔹 Kontaktní text na desktopu */
+    /* 🔹 Kontaktní text - BAREVNÉ POZADÍ + KULATÉ ROHY */
     #woldoshop-contact .contact-info-box {
-        flex-basis: 800px; /* Pevná šířka kontaktního textu */
-        max-width: 100%; /* Zabrání přesahu */
+        flex-basis: 600px;
+        max-width: 100%;
+        background-color: #f8f8f8; /* Světle šedé pozadí */
+        border-radius: 10px; /* Kulaté rohy */
+        padding: 20px; /* Vnitřní odsazení */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05); /* Jemný stín pro efekt hloubky */
     }
 
     /* 📱 Responzivní úprava pro mobil */
     @media (max-width: 768px) {
         #woldoshop-contact .contact-section {
-            flex-direction: column; /* Přepne na sloupce */
+            flex-direction: column;
             gap: 50px; /* Větší mezera mezi formulářem a textem */
         }
 
@@ -34,7 +38,12 @@
         #woldoshop-contact .contact-form-box,
         #woldoshop-contact .contact-info-box {
             width: 100%;
-            flex-basis: auto; /* Na mobilu se přizpůsobí obsahu */
+            flex-basis: auto;
+        }
+
+        /* Větší vnitřní odsazení na mobilu pro lepší čitelnost */
+        #woldoshop-contact .contact-info-box {
+            padding: 30px;
         }
     }
 
