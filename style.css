@@ -1,6 +1,6 @@
   /* 🔹 Hlavní kontejner */
     #woldoshop-contact {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -19,7 +19,7 @@
 
     /* 🔹 Kontaktní text - BAREVNÉ POZADÍ + KULATÉ ROHY */
     #woldoshop-contact .contact-info-box {
-        flex-basis: 600px;
+        flex-basis: 800px;
         max-width: 100%;
         background-color: #d1dd78; /* Světle šedé pozadí */
         border-radius: 10px; /* Kulaté rohy */
