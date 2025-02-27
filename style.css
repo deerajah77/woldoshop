@@ -15,7 +15,7 @@
     /* 🔹 Formulář na desktopu */
     #woldoshop-contact .contact-form-box {
         flex: 1;
-        min-width: 300px;
+        min-width: 500px;
         max-width: 800px; /* Pevná max. šířka na desktopu */
     }
 
