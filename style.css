@@ -5,7 +5,7 @@
 }
 
 
-/* 🔹 Hlavní kontejner */
+/* 🔹 Hlavní kontejner pro karty */
 #custom-cards-section3 {
     display: flex;
     gap: 15px;
@@ -18,8 +18,8 @@
 /* 🔹 Jednotlivé karty */
 .custom-card {
     flex: 1;
-    background-color: #D8CFC6; /* Světle šedé podbarvení */
-    border-radius: 15px; /* Kulaté rohy */
+    background-color: #D8CFC6;
+    border-radius: 15px;
     overflow: hidden;
     text-align: center;
     display: flex;
@@ -29,8 +29,8 @@
 /* 🔹 Obrázky nahoře */
 .custom-card img {
     width: 100%;
-    height: 150px; /* Stejná výška obrázků */
-    object-fit: cover; /* Oříznutí obrázku, aby vyplnil prostor */
+    height: 150px;
+    object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -38,13 +38,7 @@
 /* 🔹 Obsah karty */
 .custom-card-content {
     padding: 15px;
-    flex-grow: 1; /* Zajišťuje rovnoměrné rozložení textu */
-}
-
-/* 🔹 Styl nadpisu */
-.custom-card-content h5 {
-    margin: 10px 0;
-    font-size: 18px;
+    flex-grow: 1;
 }
 
 /* 🔹 Styl tlačítka */
@@ -52,7 +46,7 @@
     display: inline-block;
     margin-top: 10px;
     padding: 8px 15px;
-    background-color: #24342C; /* Modrá barva */
+    background-color: #24342C;
     color: white;
     text-decoration: none;
     border-radius: 15px;
@@ -61,13 +55,13 @@
 }
 
 .custom-button:hover {
-    background-color: #0056b3; /* Tmavší odstín při najetí myší */
+    background-color: #0056b3;
 }
 
-/* 📱 Responzivita pro mobil */
+/* 📱 Opravená responzivita pro mobil */
 @media (max-width: 768px) {
-    #custom-cards-section {
-        flex-direction: column; /* Karty pod sebou */
+    #custom-cards-section3 {
+        flex-direction: column; /* Správně: Karty se zobrazí pod sebou */
         align-items: center;
     }
 
@@ -76,13 +70,11 @@
     }
 }
 
-
-
-/* 🔹 Kontejner pro 3 obrázky */
+/* 🔹 Kontejner pro obrázky */
 #custom-image-section2 {
     display: flex;
     gap: 15px;
-    max-width: 900px; /* Omezení šířky sekce */
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     justify-content: center;
@@ -90,61 +82,56 @@
 
 /* 🔹 Každý box s obrázkem a textem */
 #custom-image-section2 .custom-image-box {
-    flex: 1; /* Každý box má stejnou šířku */
+    flex: 1;
     text-align: center;
 }
 
 /* 🔹 Obrázky – stejné velikosti */
 #custom-image-section2 .custom-image-box img {
-    /*width: 100%;
-    /*max-width: 250px; /* Maximální šířka */
-    height: 100px; /* Stejná výška pro všechny */
-    /*object-fit: cover; /* Oříznutí obrázku tak, aby se zachoval poměr */
+    width: 100%;
+    max-width: 250px;
+    height: 100px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
 
-/* 📱 Responzivita pro mobil */
+/* 📱 Opravená responzivita pro mobil */
 @media (max-width: 768px) {
-    #custom-image-section {
-        flex-direction: column; /* Obrázky pod sebou */
+    #custom-image-section2 {
+        flex-direction: column; /* Správně: Obrázky se zobrazí pod sebou */
         align-items: center;
     }
-    
+
     #custom-image-section2 .custom-image-box {
         width: 100%;
     }
 }
 
-
-
-
-/* 🔹 Unikátní kontejner pro 3 boxy */
+/* 🔹 Kontejner pro 3 textové boxy */
 #custom-info-section {
     display: flex;
     gap: 15px;
-    max-width: 900px; /* Omezení šířky stránky */
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
 
 /* 🔹 Jednotlivé boxy */
 #custom-info-section .custom-info-box {
-    flex: 1; /* Stejná šířka pro všechny boxy */
-    background-color: #d1dd78; /* Světle šedé podbarvení */
+    flex: 1;
+    background-color: #d1dd78;
     padding: 20px;
-    border-radius: 10px; /* Zaoblené rohy */
+    border-radius: 10px;
     text-align: center;
 }
 
-/* 📱 Responzivita pro mobil */
+/* 📱 Opravená responzivita pro mobil */
 @media (max-width: 768px) {
     #custom-info-section {
-        flex-direction: column; /* Boxy se zobrazí pod sebou */
+        flex-direction: column; /* Správně: Boxy se zobrazí pod sebou */
     }
 }
-
-
 
 /* 🔹 Celá stránka */
 body {
@@ -188,12 +175,12 @@ body {
     height: 200px;
 }
 
-/* Velký obrázek */
+/* 🔹 Velký obrázek */
 .big-image {
     flex: 2;
 }
 
-/* Malý obrázek */
+/* 🔹 Malý obrázek */
 .small-image {
     flex: 1;
 }
@@ -222,7 +209,7 @@ body {
     color: white;
     padding: 10px;
     transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
-    height: 70px; /* Výška jen pro nadpis */
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,30 +217,17 @@ body {
     flex-direction: column;
 }
 
-/* 🔹 Nadpis zůstává viditelný */
-.image-text h4 {
-    margin: 0;
-    font-size: 18px;
-}
-
-/* 🔹 Doplňující text je skrytý a objeví se při hover efektu */
-.image-text p {
-    opacity: 0;
-    margin: 5px 0 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
 /* 🔹 Po najetí se pole zvětší a zobrazí text */
 .image-item:hover .image-text {
-    height: 100px; /* Zvětšené pole */
+    height: 100px;
     padding: 20px;
 }
 
 .image-item:hover .image-text p {
-    opacity: 1; /* Zobrazí doplňující text */
+    opacity: 1;
 }
 
-/* 📱 Responzivita pro mobil */
+/* 📱 Opravená responzivita pro mobil */
 @media (max-width: 768px) {
     .image-row {
         flex-direction: column;
