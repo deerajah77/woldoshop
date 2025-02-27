@@ -1,3 +1,10 @@
+.btn.btn-conversion:hover, a.btn.btn-conversion:hover, .btn.btn-cart:hover, a.btn.btn-cart:hover {
+    border-color: #24342C;
+    color: #fff;
+    background-color: #24342C;
+}
+
+
 /* 🔹 Hlavní kontejner */
 #custom-cards-section3 {
     display: flex;
