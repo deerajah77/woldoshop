@@ -72,7 +72,7 @@ body {
     width: 100%;
     background: rgba(249, 250, 251, 0.65);
     color: white;
-    padding: 15px;
+    padding: 10px;
     transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
     height: 70px; /* Výška jen pro nadpis */
     display: flex;
@@ -97,7 +97,7 @@ body {
 
 /* 🔹 Po najetí se pole zvětší a zobrazí text */
 .image-item:hover .image-text {
-    height: 120px; /* Zvětšené pole */
+    height: 100px; /* Zvětšené pole */
     padding: 20px;
 }
 
