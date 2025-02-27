@@ -1,4 +1,4 @@
- /* 🔹 Obecné nastavení kontaktu */
+ /* 🔹 Hlavní kontejner */
     #woldoshop-contact {
         max-width: 1000px;
         margin: 0 auto;
@@ -14,14 +14,12 @@
 
     /* 🔹 Formulář na desktopu */
     #woldoshop-contact .contact-form-box {
-        flex: 1;
-        min-width: 500px;
-        max-width: 800px; /* Pevná max. šířka na desktopu */
+        width: 350px; /* Pevná šířka formuláře na desktopu */
     }
 
     /* 🔹 Textová část */
     #woldoshop-contact .contact-info-box {
-        flex: 2;
+        flex: 1; /* Zabere zbylý prostor */
     }
 
     /* 📱 Responzivní úprava pro mobil */
@@ -31,10 +29,9 @@
             gap: 50px; /* Větší mezera mezi formulářem a textem */
         }
 
-        /* Formulář a text na mobilu budou přes celou šířku */
-        #woldoshop-contact .contact-form-box, 
-        #woldoshop-contact .contact-info-box {
-            max-width: 100%;
+        /* Formulář na mobilu bude přes celou šířku */
+        #woldoshop-contact .contact-form-box {
+            width: 100%;
         }
     }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
