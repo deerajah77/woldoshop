@@ -27,7 +27,7 @@ p {
 
 /* 🔹 Grid pro obrázky */
 #custom-image-section .image-grid {
-    display: grid;
+    /*display: grid;*/
     gap: 15px;
 }
 
