@@ -1,5 +1,5 @@
 /* 🔹 Kontejner pro 3 obrázky */
-#custom-image-section {
+#custom-image-section2 {
     display: flex;
     gap: 15px;
     max-width: 900px; /* Omezení šířky sekce */
@@ -9,13 +9,13 @@
 }
 
 /* 🔹 Každý box s obrázkem a textem */
-#custom-image-section .custom-image-box {
+#custom-image-section2 .custom-image-box {
     flex: 1; /* Každý box má stejnou šířku */
     text-align: center;
 }
 
 /* 🔹 Obrázky – stejné velikosti */
-#custom-image-section .custom-image-box img {
+#custom-image-section2 .custom-image-box img {
     /*width: 100%;
     /*max-width: 250px; /* Maximální šířka */
     height: 100px; /* Stejná výška pro všechny */
@@ -31,7 +31,7 @@
         align-items: center;
     }
     
-    #custom-image-section .custom-image-box {
+    #custom-image-section2 .custom-image-box {
         width: 100%;
     }
 }
