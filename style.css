@@ -1,6 +1,6 @@
  /* 🔹 Hlavní kontejner */
     #woldoshop-contact {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -14,7 +14,7 @@
 
     /* 🔹 Formulář na desktopu */
     #woldoshop-contact .contact-form-box {
-        width: 350px; /* Pevná šířka formuláře na desktopu */
+        width: 450px; /* Pevná šířka formuláře na desktopu */
     }
 
     /* 🔹 Textová část */
