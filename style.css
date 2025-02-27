@@ -2,14 +2,14 @@
     #woldoshop-contact {
         max-width: 1400px;
         margin: 0 auto;
-        padding: 40px;
+        padding: 20px;
     }
 
     /* 📌 Desktop verze - Formulář + text vedle sebe */
     #woldoshop-contact .contact-section {
         display: flex;
         align-items: flex-start;
-        gap: 40px; /* Mezera mezi formulářem a textem */
+        gap: 60px; /* Mezera mezi formulářem a textem */
     }
 
     /* 🔹 Formulář na desktopu */
