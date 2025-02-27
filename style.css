@@ -1,94 +1,109 @@
 /* 🔹 Celá stránka */
-   body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      /*background-color: #f5f5f5;
-      color: #333;*/
- }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* 🔹 Hlavní kontejner */
-   #custom-page {
-     max-width: 1000px;
-     margin: 0 auto;
-     padding: 20px;
-     /*background: white;*/
-     border-radius: 10px;
-     /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
- }
+#custom-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 h4 {
-     text-align: left;
- }
+    text-align: left;
+}
+
 h3 {
-     text-align: center;
+    text-align: center;
 }
+
 p {
-     line-height: 1.6;
+    line-height: 1.6;
 }
+
 /* 🔹 Grid pro obrázky */
-   #custom-image-section .image-grid {
-     display: grid;
-     gap: 15px;
+#custom-image-section .image-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
+
 /* Dvě řady obrázků */
-   #custom-image-section .row {
-     display: grid;
-     grid-template-columns: 1.6fr 0.8fr;
-     gap: 15px;
+#custom-image-section .row {
+    display: grid;
+    grid-template-columns: 1.6fr 0.8fr;
+    gap: 15px;
+    width: 100%; /* Oprava - zajistí správnou velikost */
 }
-   #custom-image-section .row:nth-child(2) {
-     grid-template-columns: 0.8fr 1.6fr;
-        }
+
+#custom-image-section .row:nth-child(2) {
+    grid-template-columns: 0.8fr 1.6fr;
+}
+
 /* 🔹 Obrázky – stejná výška, různé šířky */
-   #custom-image-section .image-item {
-     position: relative;
-     border-radius: 15px;
-     overflow: hidden;
-     height: 200px;
+#custom-image-section .image-item {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 200px;
+    width: 100%; /* Přidáno pro správné škálování */
 }
-   #custom-image-section .image-item img {
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-     border-radius: 15px;
-     transition: transform 0.3s ease-in-out;
- }
+
+#custom-image-section .image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
 /* 🔹 Efekt hover na obrázek */
-   #custom-image-section .image-item:hover img {
-     transform: scale(1.05);
+#custom-image-section .image-item:hover img {
+    transform: scale(1.05);
 }
 
-        /* 🔹 Textový box přes obrázek */
-        #custom-image-section .image-text {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(249, 250, 251, 0.65);
-            color: white;
-            padding: 15px;
-            transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
-            height: 50px;
-            overflow: hidden;
-            text-align: left;
-        }
+/* 🔹 Textový box přes obrázek */
+#custom-image-section .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(249, 250, 251, 0.65);
+    color: white;
+    padding: 15px;
+    transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    height: 50px;
+    overflow: hidden;
+    text-align: left;
+}
 
-        #custom-image-section .image-item:hover .image-text {
-            height: 100px;
-            padding: 20px;
-        }
+#custom-image-section .image-item:hover .image-text {
+    height: 100px;
+    padding: 20px;
+}
 
-        /* 📱 Responzivita pro mobil */
-        @media (max-width: 768px) {
-            #custom-image-section .image-grid {
-                display: flex;
-                flex-direction: column;
-            }
+/* 📱 Responzivita pro mobil */
+@media (max-width: 768px) {
+    #custom-image-section .image-grid {
+        display: flex;
+        flex-direction: column;
+    }
 
-            #custom-image-section .image-item {
-                width: 100%;
-                height: 200px;
-            }
-        }
+    #custom-image-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #custom-image-section .image-item {
+        width: 100%;
+        height: 200px;
+    }
+}
+
 
 
 
