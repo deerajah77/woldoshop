@@ -19,7 +19,7 @@
 
     /* 🔹 Kontaktní text na desktopu */
     #woldoshop-contact .contact-info-box {
-        flex-basis: 600px; /* Pevná šířka kontaktního textu */
+        flex-basis: 800px; /* Pevná šířka kontaktního textu */
         max-width: 100%; /* Zabrání přesahu */
     }
 
