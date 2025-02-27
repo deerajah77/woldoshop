@@ -32,11 +32,11 @@ p {
 /* Dvě řady obrázků */
    #custom-image-section .row {
      display: grid;
-     grid-template-columns: 2fr 1fr;
+     grid-template-columns: 1,8fr 1fr;
      gap: 15px;
 }
    #custom-image-section .row:nth-child(2) {
-     grid-template-columns: 1fr 2fr;
+     grid-template-columns: 1fr 1,8fr;
         }
 /* 🔹 Obrázky – stejná výška, různé šířky */
    #custom-image-section .image-item {
