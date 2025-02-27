@@ -27,17 +27,16 @@ p {
 
 /* 🔹 Grid pro obrázky */
 #custom-image-section .image-grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 15px;
 }
 
-/* Dvě řady obrázků */
+/* Každá řada bude obsahovat dvě různé šířky */
 #custom-image-section .row {
     display: grid;
     grid-template-columns: 1.6fr 0.8fr;
     gap: 15px;
-    width: 100%; /* Oprava - zajistí správnou velikost */
+    width: 100%;
 }
 
 #custom-image-section .row:nth-child(2) {
@@ -50,7 +49,7 @@ p {
     border-radius: 15px;
     overflow: hidden;
     height: 200px;
-    width: 100%; /* Přidáno pro správné škálování */
+    width: 100%;
 }
 
 #custom-image-section .image-item img {
@@ -103,6 +102,7 @@ p {
         height: 200px;
     }
 }
+
 
 
 
