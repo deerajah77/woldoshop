@@ -11,7 +11,7 @@
 /* 🔹 Jednotlivé karty */
 .custom-card {
     flex: 1;
-    background-color: 2px solid #D8CFC6; /* Světle šedé podbarvení */
+    background-color: #D8CFC6; /* Světle šedé podbarvení */
     border-radius: 15px; /* Kulaté rohy */
     overflow: hidden;
     text-align: center;
