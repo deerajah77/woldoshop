@@ -1,4 +1,72 @@
-  /* 🔹 Hlavní kontejner */
+    /* 🔹 Jedinečný kontejner */
+    #custom-image-section {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* 🔹 Grid pro obrázky */
+    #custom-image-section .image-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* První obrázek široký, druhý užší */
+        gap: 20px; /* Mezera mezi prvky */
+    }
+
+    /* Druhá řada má obrázky opačně */
+    #custom-image-section .image-grid .row:nth-child(2) {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    /* 🔹 Obrázky */
+    #custom-image-section .image-item {
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden; /* Zaoblení rohů i pro obsah */
+    }
+
+    #custom-image-section .image-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 15px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* 🔹 Efekt hover na obrázek */
+    #custom-image-section .image-item:hover img {
+        transform: scale(1.05); /* Jemné zvětšení */
+    }
+
+    /* 🔹 Textový box přes obrázek */
+    #custom-image-section .image-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Průhledné černé pozadí */
+        color: white;
+        padding: 15px;
+        transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+        height: 50px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #custom-image-section .image-item:hover .image-text {
+        height: 100px; /* Rozšíření pole s textem */
+        padding: 20px;
+    }
+
+    /* 📱 Responzivní úprava pro mobil */
+    @media (max-width: 768px) {
+        #custom-image-section .image-grid {
+            grid-template-columns: 1fr; /* Obrázky pod sebou */
+        }
+    }
+
+
+
+/* 🔹 Hlavní kontejner */
     #woldoshop-contact {
         max-width: 1800px;
         margin: 0 auto;
