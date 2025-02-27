@@ -33,7 +33,7 @@ p {
 
 /* Každá řada bude obsahovat dvě různé šířky */
 #custom-image-section .row {
-    display: grid;
+    /*display: grid;*/
     grid-template-columns: 1.6fr 0.8fr;
     gap: 15px;
     width: 100%;
