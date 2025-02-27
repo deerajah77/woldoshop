@@ -1,3 +1,42 @@
+/* 🔹 Kontejner pro 3 obrázky */
+#custom-image-section {
+    display: flex;
+    gap: 15px;
+    max-width: 900px; /* Omezení šířky sekce */
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* 🔹 Každý box s obrázkem a textem */
+#custom-image-section .custom-image-box {
+    flex: 1; /* Každý box má stejnou šířku */
+    text-align: center;
+}
+
+/* 🔹 Obrázky – stejné velikosti */
+#custom-image-section .custom-image-box img {
+    width: 100%;
+    max-width: 250px; /* Omezení maximální šířky */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 📱 Responzivita pro mobil */
+@media (max-width: 768px) {
+    #custom-image-section {
+        flex-direction: column; /* Obrázky pod sebou */
+        align-items: center;
+    }
+    
+    #custom-image-section .custom-image-box {
+        width: 100%;
+    }
+}
+
+
+
 /* 🔹 Unikátní kontejner pro 3 boxy */
 #custom-info-section {
     display: flex;
