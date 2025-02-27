@@ -17,7 +17,7 @@
 /* 🔹 Obrázky – stejné velikosti */
 #custom-image-section .custom-image-box img {
     width: 100%;
-    max-width: 250px; /* Maximální šířka */
+    /*max-width: 250px; /* Maximální šířka */
     height: 180px; /* Stejná výška pro všechny */
     /*object-fit: cover; /* Oříznutí obrázku tak, aby se zachoval poměr */
     display: block;
