@@ -88,7 +88,7 @@
 
 /* 🔹 Obrázky – stejné velikosti */
 #custom-image-section2 .custom-image-box img {
-    width: 100%;
+    /*width: 100%;*/
     max-width: 250px;
     height: 100px;
     /*object-fit: cover;*/
