@@ -1,3 +1,31 @@
+/* 🔹 Unikátní kontejner pro 3 boxy */
+#custom-info-section {
+    display: flex;
+    gap: 15px;
+    max-width: 900px; /* Omezení šířky stránky */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 🔹 Jednotlivé boxy */
+#custom-info-section .custom-info-box {
+    flex: 1; /* Stejná šířka pro všechny boxy */
+    background-color: #f8f8f8; /* Světle šedé podbarvení */
+    padding: 20px;
+    border-radius: 10px; /* Zaoblené rohy */
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Jemný stín */
+}
+
+/* 📱 Responzivita pro mobil */
+@media (max-width: 768px) {
+    #custom-info-section {
+        flex-direction: column; /* Boxy se zobrazí pod sebou */
+    }
+}
+
+
+
 /* 🔹 Celá stránka */
 body {
     font-family: Arial, sans-serif;
