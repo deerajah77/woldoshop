@@ -1,3 +1,7 @@
+.filters-visible #content .filters-unveil-button-wrapper .btn.unveil-button {
+    background-color: #24342c;
+}
+
 #content .filters-unveil-button-wrapper .btn.unveil-button::before {
   color: #ffffff;
 }
