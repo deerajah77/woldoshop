@@ -1,3 +1,10 @@
+.search .btn.btn-default::before, .search a.btn.btn-default::before {
+    color: #1f352b;
+}
+.search .btn.btn-default::hover, .search a.btn.btn-default::hover {
+    color: #86BC25;
+}
+
 .btn.btn-secondary, a.btn.btn-secondary:hover {
     color: #fff;
     border-color: #86BC25;
