@@ -1,3 +1,8 @@
+.submit-button:hover {
+    background-color: #86BC25;
+    color: white;
+}
+
 .btn.btn-cart::after, a.btn.btn-cart::after, .btn.add-to-cart-button::after, a.btn.add-to-cart-button::after {
     display: none;
     content: '\e918';
