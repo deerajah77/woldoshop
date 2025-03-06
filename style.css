@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .search input[type="search"].form-control {
   border-radius: 25px;
-  border: 2px solid #D8CFC6;
+  border: 2px solid #7c7e8f;
   background-color: #ffff;
 }
 .search .btn.btn-default, .search a.btn.btn-default {
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #D8CFC6;
 }
 .search input[type="search"].form-control:focus {
-  border-color: #D8CFC6;
+  border-color: #7c7e8f;
 }
 .mobile.one-column-body .slider-wrapper, .desktop.one-column-body .slider-wrapper, .mobile.multiple-columns-body .slider-wrapper {
   background-color: #D8CFC6;
