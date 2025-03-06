@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 0 0 15px 15px;
 }
 .footer-banners .extended-banner-title:not(:empty) {
-  color: var(--color-primary-hover);
+  color: #000;
   }
 }
 #header {
