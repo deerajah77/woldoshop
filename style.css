@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: white;
 }
 .category-header input[type="radio"] + label {
-  background-color: #D8CFC6;
+  background-color: #24342C;
   color: black;
 }
 .category-header input[type="radio"]:checked + label {
