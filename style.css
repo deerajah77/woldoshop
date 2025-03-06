@@ -468,6 +468,9 @@ body {
    background-color: #edede7;
    color: #24342C;
 }
+.faq-side-list__item.is-active:hover {
+   color: #86BC25;
+}
 .faq-content .tabs-content {
    background-color: #D8CFC6;
    border-radius: 25px;
