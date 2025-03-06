@@ -1,3 +1,9 @@
+.btn.btn-secondary, a.btn.btn-secondary:hover {
+    color: #fff;
+    border-color: #86BC25;
+    background-color: #86BC25;
+}
+
 .submit-button:hover {
     background-color: #86BC25;
     color: white;
