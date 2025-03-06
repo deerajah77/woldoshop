@@ -1,3 +1,7 @@
+#content .filters-unveil-button-wrapper .btn.unveil-button::before {
+  color: #ffffff;
+}
+
 .p-short-description p {
     color: #000000;
 }
