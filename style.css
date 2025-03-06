@@ -461,7 +461,7 @@ body {
    border-radius: 25px 25px 0 0;
 }
 .faq-content .tab-content__item.is-active .accordion--classic {
-   background-color: #D8CFC6;
+   background-color: edede7;
 }
 .faq-side-list__item.is-active {
    border-color: #D8CFC6;
