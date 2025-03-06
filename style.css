@@ -464,8 +464,8 @@ body {
    background-color: #edede7;
 }
 .faq-side-list__item.is-active {
-   border-color: #D8CFC6;
-   background-color: #D8CFC6;
+   border-color: #edede7;
+   background-color: #edede7;
 }
 .faq-content .tabs-content {
    background-color: #D8CFC6;
