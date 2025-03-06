@@ -1,3 +1,14 @@
+@media (min-width: 768px) {
+    .footer-banners .footer-banner:not(.footer-banner--no-text) img {
+        height: 65px;
+        top: -17px;
+    }
+}
+.footer-banners .footer-banner:not(.footer-banner--no-text) img {
+    max-width: 65px;
+}
+
+
 @media (max-width: 1199px) {
   .footer-banners .footer-banner {
      width: 30%;
