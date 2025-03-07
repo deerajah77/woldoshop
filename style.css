@@ -11,10 +11,9 @@
 .banner-wrapper {
     text-align: center;
     margin-bottom: 20px;
-    width: 100%;
-    max-width: 1380px; /* Bannery budou maximálně široké */
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw; /* Plná šířka viewportu */
+    max-width: 100%; /* Obejití omezení rodičovského kontejneru */
+    padding: 0;
 }
 
 /* Nadpis nad bannery */
@@ -31,16 +30,16 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 bannery vedle sebe */
     gap: 20px; /* Mezera mezi bannery */
-    width: 100%;
-    max-width: 1380px; /* Maximální šířka odpovídající designu eshopu */
+    width: 100vw; /* Plná šířka viewportu */
+    max-width: 1380px; /* Omezíme maximální šířku, aby to nebylo roztahané */
     margin: 0 auto;
-    padding: 0;
+    padding: 0 10px; /* Menší vnitřní odsazení */
 }
 
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    width: 100%; /* Plná šířka v rámci gridu */
+    width: 100%; /* Plná šířka v rámci sloupce */
     height: 500px; /* Zvýšená výška bannerů */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
@@ -59,7 +58,7 @@
     object-fit: cover; /* Obrázek vyplní celý banner */
     display: block;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 10px; /* Oprava zaoblení rohů */
+    border-radius: 10px;
 }
 
 /* Efekt průhlednosti na hover */
@@ -110,6 +109,7 @@
         font-size: 1rem;
     }
 }
+
 
 
 
