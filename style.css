@@ -1,3 +1,96 @@
+/* Uni obal třída, která zajistí, že styly se apl jen zde */
+.banner-navigation {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px; /* Mezery mezi bannery */
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 0px 0px;
+   flex: 0 0 100%!important;
+}
+.banner-navigation .banner-item {
+   position: relative;
+   flex: 1 1 calc(25% - 20px); /* 4 sloupce na desk */
+   max-width: calc(25% - 20px); /* Oprava vel */
+   /*cursor: pointer;*/
+   transition: transform 0.3s ease-in-out;
+}
+.banner-navigation .banner-item:hover {
+   transform: scale(1.08); /* Větší zvětšení při najetí */
+}
+.banner-navigation .banner-item a {
+   display: block;
+   width: 100%;
+   position: relative;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.banner-navigation .banner-image {
+   width: 100%;
+   height: auto;
+   max-width: none; 
+   display: block;
+   border-radius: 10px;
+   transition: opacity 0.3s ease-in-out;
+}
+.banner-navigation .banner-item:hover .banner-image {
+   opacity: 0.8; 
+}
+.banner-navigation .banner-title {
+   position: absolute;
+   bottom: 10%;
+   left: 50%;
+   transform: translateX(-50%);
+   text-shadow: 0px 0px 20px rgba(0.8,0.8,0.8,0.8)!important;
+   /*padding: 10px 70px;*/
+   border-radius: 0px;
+   font-size: 1.6rem;
+   text-align: center;
+   white-space: nowrap;
+   width: auto;
+   z-index: 2;
+}
+/* Resp design */
+@media (max-width: 600px) {
+  .banner-navigation .banner-item {
+    flex: 1 1 100%; /* 1 sloupec na mobilu */
+    max-width: 100%;
+   }
+}
+@media (max-width: 600px) {
+ .banner-navigation .banner-item {
+   flex: 1 1 100%; /* 1 sloupec na mobilu */
+     max-width: 100%;
+}
+.banner-navigation .banner-title {
+   font-size: 2rem; /* Zvětšení nadpisu na mobilu */
+   padding: 12px 30px;
+  }
+}
+@media (min-width: 480px) {
+  .banners-top-block .banner-wrapper {
+   padding: 4px 4px;
+   margin: 0;
+   width: 100%;
+   max-width: 100%;
+   flex: 0 0 100%;
+  }
+}
+/*.container {
+   padding-left: 0px;
+   padding-right: 0px;
+}*/
+@media (min-width: 480px) {
+   .footer-banners {
+      padding-right: 50px;
+      padding-left: 50px;
+   }
+}
+
 .filters-visible #content .filters-unveil-button-wrapper .btn.unveil-button {
     background-color: #24342c;
 }
