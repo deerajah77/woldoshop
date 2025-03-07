@@ -3,15 +3,18 @@
     text-align: center;
     margin-bottom: 20px;
     width: 100%;
+    max-width: 1380px; /* Omezení maximální šířky na 1380px */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Nadpis nad bannery */
 .banner-wrapper h2 {
-    /*font-size: 2.4rem;*/
-    font-weight: 700;
-    /*margin-bottom: 20px;
-    color: #333;*/
-    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
     padding-left: 15px;
 }
 
@@ -19,22 +22,22 @@
 .banner-navigation2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* 2 bannery vedle sebe */
+    justify-content: space-between; /* Zajištění 2 bannerů vedle sebe */
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     gap: 20px; /* Mezera mezi bannery */
 }
 
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    width: calc(50% - 10px); /* Dvě položky vedle sebe, se zachováním mezery */
-    height: 150px; /* Zvýšená výška pro lepší viditelnost */
+    width: calc(50% - 10px); /* 2 bannery vedle sebe s mezerou */
+    height: 400px; /* Zvýšená výška pro větší bannery */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
-    border-radius: 10px; /* Zaoblení rohů */
+    border-radius: 10px;
 }
 
 /* Efekt při najetí */
@@ -46,7 +49,7 @@
 .banner-navigation2 .banner-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Obrázek se přizpůsobí a vyplní celý banner */
+    object-fit: cover; /* Obrázek vyplní celý banner */
     display: block;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px; /* Oprava zaoblení rohů */
@@ -62,11 +65,10 @@
     position: absolute;
     bottom: 60px;
     left: 30px;
-    font-size: 2rem;
+    font-size: 2.2rem; /* Možnost zvětšení nadpisu */
     font-weight: bold;
-    text-align: left;
     color: white;
-    /*text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);*/
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     z-index: 2;
 }
 
@@ -75,10 +77,9 @@
     position: absolute;
     bottom: 20px;
     left: 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
-    text-align: left;
-    /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     margin: 0;
     max-width: 80%;
     z-index: 2;
@@ -88,7 +89,7 @@
 @media (max-width: 768px) {
     .banner-navigation2 {
         flex-direction: column; /* 1 banner na řádek na mobilu */
-        gap: 15px; /* Menší mezera mezi bannery */
+        gap: 15px;
     }
 
     .banner-navigation2 .banner-item {
@@ -101,9 +102,10 @@
     }
 
     .banner-navigation2 .banner-item p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
+
 
 
 
