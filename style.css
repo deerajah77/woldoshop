@@ -31,7 +31,7 @@
 .banner-navigation2 .banner-item {
     position: relative;
     width: calc(50% - 10px); /* Dvě položky vedle sebe, se zachováním mezery */
-    height: 350px; /* Zvýšená výška pro lepší viditelnost */
+    height: 550px; /* Zvýšená výška pro lepší viditelnost */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     border-radius: 10px; /* Zaoblení rohů */
