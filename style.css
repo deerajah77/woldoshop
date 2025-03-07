@@ -2,15 +2,16 @@
 .banner-wrapper {
     text-align: center;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 /* Nadpis nad bannery */
 .banner-wrapper h2 {
     font-size: 2.4rem; /* Zvětšení nadpisu */
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 20px;
     color: #333;
-    text-align: center;
+    text-align: left;
     padding-left: 15px;
 }
 
@@ -19,19 +20,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Zajistí 2 bannery vedle sebe */
-    gap: 20px;
-    max-width: 150%;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0;
 }
 
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    flex: 1 1 calc(50% - 20px); /* 2 bannery vedle sebe */
-    max-width: calc(50% - 20px);
+    flex: 1 1 50%; /* 2 bannery vedle sebe */
+    max-width: 50%;
     transition: transform 0.3s ease-in-out;
-    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -45,7 +44,6 @@
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 10px;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -58,24 +56,24 @@
 .banner-navigation2 .banner-title {
     position: absolute;
     bottom: 50px; /* Odsazení od spodního okraje */
-    left: 20px;
+    left: 30px;
     font-size: 2rem; /* Možnost zvětšení */
     font-weight: bold;
     color: white;
-    /*text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);*/
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     z-index: 2;
 }
 
 /* Popisek na banneru */
 .banner-navigation2 .banner-item p {
     position: absolute;
-    bottom: 10px; /* Umístění pod nadpis */
-    left: 20px;
-    font-size: 1.5rem;
+    bottom: 20px; /* Umístění pod nadpis */
+    left: 30px;
+    font-size: 1rem;
     color: white;
-    /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     margin: 0;
-    max-width: 100%;
+    max-width: 80%;
     z-index: 2;
 }
 
@@ -98,6 +96,7 @@
         font-size: 0.9rem;
     }
 }
+
 
 
 
