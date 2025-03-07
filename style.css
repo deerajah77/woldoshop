@@ -17,20 +17,21 @@
 
 /* Kontejner pro bannery */
 .banner-navigation2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 sloupce vedle sebe */
-    grid-template-rows: auto auto; /* 2 řady pod sebou */
-    gap: 20px; /* Mezera mezi bannery */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* 2 bannery vedle sebe */
     width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    gap: 20px; /* Mezera mezi bannery */
 }
 
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    width: 100%; /* Každý banner zabírá celou šířku svého sloupce */
-    min-height: 350px; /* Zvýšení výšky banneru pro lepší viditelnost */
+    width: calc(50% - 10px); /* Dvě položky vedle sebe, se zachováním mezery */
+    height: 350px; /* Zvýšená výška pro lepší viditelnost */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     border-radius: 10px; /* Zaoblení rohů */
@@ -84,11 +85,13 @@
 /* Responzivita - mobilní verze */
 @media (max-width: 768px) {
     .banner-navigation2 {
-        grid-template-columns: 1fr; /* 1 banner na řádek na mobilu */
+        flex-direction: column; /* 1 banner na řádek na mobilu */
+        gap: 15px; /* Menší mezera mezi bannery */
     }
 
     .banner-navigation2 .banner-item {
-        min-height: 250px;
+        width: 100%; /* Plná šířka */
+        height: 250px; /* Menší výška na mobilu */
     }
 
     .banner-navigation2 .banner-title {
@@ -99,6 +102,7 @@
         font-size: 0.9rem;
     }
 }
+
 
 
 
