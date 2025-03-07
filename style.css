@@ -19,7 +19,7 @@
 .banner-navigation2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Zajistí 2 bannery vedle sebe */
+    justify-content: center; /* Zajistí rovnoměrné rozložení */
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -28,8 +28,7 @@
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    flex: 1 1 50%; /* 2 bannery vedle sebe */
-    max-width: 50%;
+    width: 50%; /* Každý banner zabírá polovinu šířky */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -84,8 +83,7 @@
     }
 
     .banner-navigation2 .banner-item {
-        flex: 1 1 100%; /* Plná šířka */
-        max-width: 100%;
+        width: 100%; /* Plná šířka */
     }
 
     .banner-navigation2 .banner-title {
@@ -96,6 +94,7 @@
         font-size: 0.9rem;
     }
 }
+
 
 
 
