@@ -5,21 +5,21 @@
 }
 
 /* Nadpis nad bannery */
-.banner-wrapper h4 {
-    /*font-size: 2rem;
-    font-weight: 700;
+.banner-wrapper h2 {
+    font-size: 2.4rem; /* Zvětšení nadpisu */
+    font-weight: bold;
     margin-bottom: 20px;
-    color: #333;*/
-    text-align: center;
-    /*padding-left: 15px;*/
+    color: #333;
+    text-align: left;
+    padding-left: 15px;
 }
 
 /* Kontejner pro bannery */
 .banner-navigation2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* Větší mezery */
+    justify-content: space-between; /* Zajistí 2 bannery vedle sebe */
+    gap: 20px;
     max-width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -28,8 +28,8 @@
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    flex: 1 1 calc(50% - 20px); /* 2 sloupce vedle sebe */
-    max-width: calc(50% - 20px); /* Omezit max šířku */
+    flex: 1 1 calc(50% - 20px); /* 2 bannery vedle sebe */
+    max-width: calc(50% - 20px);
     transition: transform 0.3s ease-in-out;
     border-radius: 10px;
     overflow: hidden;
@@ -57,9 +57,9 @@
 /* Nadpis na banneru */
 .banner-navigation2 .banner-title {
     position: absolute;
-    top: 20px;
+    bottom: 50px; /* Odsazení od spodního okraje */
     left: 20px;
-    font-size: 1.8rem;
+    font-size: 2rem; /* Možnost zvětšení */
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
@@ -69,7 +69,7 @@
 /* Popisek na banneru */
 .banner-navigation2 .banner-item p {
     position: absolute;
-    bottom: 20px;
+    bottom: 20px; /* Umístění pod nadpis */
     left: 20px;
     font-size: 1rem;
     color: white;
@@ -81,19 +81,24 @@
 
 /* Responzivita - mobilní verze */
 @media (max-width: 768px) {
+    .banner-navigation2 {
+        flex-direction: column; /* 1 banner na řádek na menších zařízeních */
+    }
+
     .banner-navigation2 .banner-item {
-        flex: 1 1 100%; /* 1 sloupec na menších zařízeních */
+        flex: 1 1 100%; /* Plná šířka */
         max-width: 100%;
     }
 
     .banner-navigation2 .banner-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .banner-navigation2 .banner-item p {
         font-size: 0.9rem;
     }
 }
+
 
 
 
