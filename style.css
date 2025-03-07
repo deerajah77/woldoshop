@@ -12,10 +12,9 @@
     text-align: center;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 1380px; /* Omezení maximální šířky na 1380px */
+    max-width: 1380px; /* Bannery budou maximálně široké */
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px; /* Zajistí odsazení od kraje */
 }
 
 /* Nadpis nad bannery */
@@ -29,20 +28,20 @@
 
 /* Kontejner pro bannery */
 .banner-navigation2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Zarovnání bannerů na střed */
-    width: 100%;
-    max-width: 1380px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 bannery vedle sebe */
     gap: 20px; /* Mezera mezi bannery */
+    width: 100%;
+    max-width: 1380px; /* Maximální šířka odpovídající designu eshopu */
+    margin: 0 auto;
+    padding: 0;
 }
 
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    width: 48%; /* Zajištění dvou bannerů vedle sebe */
-    height: 400px; /* Zvýšená výška pro větší bannery */
+    width: 100%; /* Plná šířka v rámci gridu */
+    height: 500px; /* Zvýšená výška bannerů */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     border-radius: 10px;
@@ -73,7 +72,7 @@
     position: absolute;
     bottom: 60px;
     left: 30px;
-    font-size: 2.6rem; /* Možnost zvětšení nadpisu */
+    font-size: 2.6rem;
     font-weight: bold;
     color: white;
     text-align: left;
@@ -96,13 +95,11 @@
 /* Responzivita - mobilní verze */
 @media (max-width: 768px) {
     .banner-navigation2 {
-        flex-direction: column; /* 1 banner na řádek na mobilu */
-        gap: 15px;
+        grid-template-columns: 1fr; /* 1 banner na řádek na mobilu */
     }
 
     .banner-navigation2 .banner-item {
-        width: 100%; /* Plná šířka */
-        height: 250px; /* Menší výška na mobilu */
+        height: 300px; /* Menší výška na mobilu */
     }
 
     .banner-navigation2 .banner-title {
@@ -113,6 +110,7 @@
         font-size: 1rem;
     }
 }
+
 
 
 
