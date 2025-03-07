@@ -11,7 +11,7 @@
 }
 .banner-navigation2 .banner-item {
    position: relative;
-   flex: 1 1 calc(50% - 20px); /* 4 sloupce na desk */
+   flex: 1 1 calc(100% - 20px); /* 4 sloupce na desk */
    max-width: calc(50% - 20px); /* Oprava vel */
    /*cursor: pointer;*/
    transition: transform 0.3s ease-in-out;
