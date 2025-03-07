@@ -11,10 +11,10 @@
 .banner-wrapper {
     text-align: center;
     margin-bottom: 20px;
-    width: 100vw !important; /* Zajistí plnou šířku */
-    max-width: 100% !important; /* Odstraní omezení šířky */
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw; /* Zajistí plnou šířku viewportu */
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
 }
 
@@ -29,20 +29,20 @@
 
 /* Kontejner pro bannery */
 .banner-navigation2 {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important; /* 2 bannery vedle sebe */
-    gap: 20px !important; /* Mezera mezi bannery */
-    width: 100vw !important; /* Zajistí plnou šířku */
-    max-width: 1380px !important; /* Maximální šířka */
-    margin: 0 auto !important;
-    padding: 0 10px !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 bannery vedle sebe */
+    gap: 20px; /* Mezera mezi bannery */
+    width: 100vw; /* Plná šířka viewportu */
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    width: 100% !important; /* Plná šířka v rámci sloupce */
-    height: 500px !important; /* Zvýšená výška bannerů */
+    width: 100%; /* Každý banner zabírá 100% šířky svého sloupce */
+    height: 500px; /* Zvýšená výška bannerů */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     border-radius: 10px;
@@ -55,9 +55,9 @@
 
 /* Obrázky bannerů */
 .banner-navigation2 .banner-image {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover; /* Obrázek vyplní celý banner */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
@@ -96,21 +96,22 @@
 /* Responzivita - mobilní verze */
 @media (max-width: 768px) {
     .banner-navigation2 {
-        grid-template-columns: 1fr !important; /* 1 banner na řádek na mobilu */
+        grid-template-columns: 1fr; /* 1 banner na řádek na mobilu */
     }
 
     .banner-navigation2 .banner-item {
-        height: 300px !important; /* Menší výška na mobilu */
+        height: 300px;
     }
 
     .banner-navigation2 .banner-title {
-        font-size: 1.8rem !important;
+        font-size: 1.8rem;
     }
 
     .banner-navigation2 .banner-item p {
-        font-size: 1rem !important;
+        font-size: 1rem;
     }
 }
+
 
 
 
