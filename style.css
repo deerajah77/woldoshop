@@ -5,9 +5,9 @@
 }
 
 /* Nadpis nad bannery */
-.banner-wrapper h2 {
+.banner-wrapper h4 {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 20px;
     color: #333;
     text-align: center;
