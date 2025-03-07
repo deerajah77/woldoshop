@@ -7,7 +7,7 @@
 
 /* Nadpis nad bannery */
 .banner-wrapper h2 {
-    font-size: 2.4rem; /* Zvětšení nadpisu */
+    font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
@@ -15,11 +15,12 @@
     padding-left: 15px;
 }
 
-/* Kontejner pro bannery - nově GRID */
+/* Kontejner pro bannery */
 .banner-navigation2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 sloupce vedle sebe */
-    gap: 20px; /* Přidání mezery mezi bannery */
+    grid-template-columns: 1fr 1fr; /* 2 sloupce vedle sebe */
+    grid-template-rows: auto auto; /* 2 řady pod sebou */
+    gap: 20px; /* Mezera mezi bannery */
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -28,10 +29,11 @@
 /* Styl jednotlivého banneru */
 .banner-navigation2 .banner-item {
     position: relative;
-    width: 100%; /* Zajištění plné šířky sloupce */
-    min-height: 300px; /* Nastavení výšky bannerů */
+    width: 100%; /* Každý banner zabírá celou šířku svého sloupce */
+    min-height: 350px; /* Zvýšení výšky banneru pro lepší viditelnost */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
+    border-radius: 10px; /* Zaoblení rohů */
 }
 
 /* Efekt při najetí */
@@ -46,6 +48,7 @@
     object-fit: cover; /* Obrázek se přizpůsobí a vyplní celý banner */
     display: block;
     transition: opacity 0.3s ease-in-out;
+    border-radius: 10px; /* Oprava zaoblení rohů */
 }
 
 /* Efekt průhlednosti na hover */
@@ -56,9 +59,9 @@
 /* Nadpis na banneru */
 .banner-navigation2 .banner-title {
     position: absolute;
-    bottom: 60px; /* Odsazení od spodního okraje */
+    bottom: 60px;
     left: 30px;
-    font-size: 2rem; /* Možnost zvětšení */
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
@@ -68,7 +71,7 @@
 /* Popisek na banneru */
 .banner-navigation2 .banner-item p {
     position: absolute;
-    bottom: 20px; /* Umístění pod nadpis */
+    bottom: 20px;
     left: 30px;
     font-size: 1rem;
     color: white;
@@ -81,11 +84,11 @@
 /* Responzivita - mobilní verze */
 @media (max-width: 768px) {
     .banner-navigation2 {
-        grid-template-columns: 1fr; /* 1 banner na řádek */
+        grid-template-columns: 1fr; /* 1 banner na řádek na mobilu */
     }
 
     .banner-navigation2 .banner-item {
-        min-height: 250px; /* Menší výška na mobilu */
+        min-height: 250px;
     }
 
     .banner-navigation2 .banner-title {
@@ -96,6 +99,7 @@
         font-size: 0.9rem;
     }
 }
+
 
 
 
