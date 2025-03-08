@@ -1,3 +1,12 @@
+@media (min-width: 480px) {
+    .p-info-wrapper .quantity .increase::before, .p-info-wrapper .quantity .decrease::before {
+        font-size: 11px;
+    }
+}
+.quantity .increase::before, .quantity .decrease::before {
+    font-weight: 300;
+}
+
 .mobile.one-column-body .filter-section:not(.filter-section-count), .desktop.one-column-body .filter-section:not(.filter-section-count), .mobile.multiple-columns-body .filter-section:not(.filter-section-count) {
     background-color: rgba(133, 187, 37, 0);
 }
