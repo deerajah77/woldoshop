@@ -1,3 +1,6 @@
+.navigation-in {
+    font-size: 14px;
+}
 @media (min-width: 480px) {
     .p-info-wrapper .quantity input {
         font-size: 26px;
