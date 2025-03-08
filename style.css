@@ -1,3 +1,6 @@
+.p-info-wrapper .quantity input {
+    border-radius: 37px;
+}
 @media (min-width: 480px) {
     .p-info-wrapper .quantity .increase::before, .p-info-wrapper .quantity .decrease::before {
         font-size: 11px;
