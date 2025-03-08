@@ -1,6 +1,9 @@
 .navigation-in-bottom .dropdown .dropdown-menu {
     display: none;
 }
+.navigation-in-bottom .dropdown {
+    display: none;
+}
 
 
 @media (min-width: 768px) {
