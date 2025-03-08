@@ -1,8 +1,12 @@
 @media (min-width: 480px) {
     .p-info-wrapper .quantity input {
-        font-size: 27px;
+        font-size: 26px;
         font-weight: 200;
     }
+}
+
+.quantity input {
+    color: #7c7e8f;
 }
 
 .p-info-wrapper .quantity input {
