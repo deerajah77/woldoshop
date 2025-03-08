@@ -1,7 +1,10 @@
 .mobile.one-column-body .filter-section:not(.filter-section-count), .desktop.one-column-body .filter-section:not(.filter-section-count), .mobile.multiple-columns-body .filter-section:not(.filter-section-count) {
     background-color: rgba(133, 187, 37, 0);
-    padding-left: 20px;
-    padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .desktop.one-column-body #category-filter-hover {
+    background-color: rgba(133, 187, 37, 0);
+    }
 }
 
 /* 🔹 Hlavní obal – bannerová sekce */
