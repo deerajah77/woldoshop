@@ -6,6 +6,11 @@
     background-color: rgba(133, 187, 37, 0);
     }
 }
+@media (min-width: 768px) {
+    .top-navigation-bar .container > div.top-navigation-contacts {
+        top: 0px;
+    }
+}
 
 /* 🔹 Hlavní obal – bannerová sekce */
 .banner-wrapper {
