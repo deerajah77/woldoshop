@@ -1,6 +1,5 @@
 @media (min-width: 768px) {
     .middle-banners-wrapper .extended-banner-title:not(:empty), .body-banners .extended-banner-title:not(:empty), .banners-top-block .extended-banner-title:not(:empty), .next-to-carousel-banners .extended-banner-title:not(:empty), .banner-category .extended-banner-title:not(:empty), .carousel .extended-banner-title:not(:empty) {
-        font-size: 32px;
         max-width: 100%;
     }
 }
