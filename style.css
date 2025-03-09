@@ -103,12 +103,23 @@
     }
 }*/
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .top-navigation-bar .container > div:last-child {
         display: flex !important; /* Ujistí se, že je viditelná */
-        align-items: center;
+        align-items: center;*/
     }
 }
+
+@media (max-width: 768px) {
+    .top-navigation-bar .container > div:last-child {
+        display: flex !important;
+        align-items: center;
+        opacity: 1 !important; /* Ujistí se, že není průhledná */
+        visibility: visible !important;
+        position: relative !important; /* Pokud byla absolutně pozicovaná */
+    }
+}
+
 
 
 /* 🔹 Hlavní obal – bannerová sekce */
