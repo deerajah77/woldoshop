@@ -2,8 +2,8 @@ a, .top-navigation-bar .project-phone, .top-navigation-menu-trigger:hover::befor
     color: rgba(36, 52, 44, 0);
 }
 
-.top-navigation-tools .dropdown button::before, .top-navigation-tools--language .dropdown button::before {
-    color: rgba(124, 126, 143, 0);
+/*.top-navigation-tools .dropdown button::before, .top-navigation-tools--language .dropdown button::before {
+    color: rgba(124, 126, 143, 0);*/
 }
 /*.top-navigation-bar a, .top-navigation-bar .dropdown button {
     color: rgba(124, 126, 143, 0);
