@@ -76,11 +76,11 @@
 }
 
 
-.navigation-in-bottom .dropdown .dropdown-menu {
+/*.navigation-in-bottom .dropdown .dropdown-menu {
     display: none;
 }
 .navigation-in-bottom .dropdown {
-    display: none;
+    display: none;*/
 }
 
 
@@ -146,11 +146,11 @@
 }
 
 
-/*@media (min-width:768px) {
+@media (min-width:768px) {
     .top-navigation-bar .container > div:last-child {
         display: none;
     }
-}*/
+}
 
 /*@media (max-width: 768px) {
     .top-navigation-bar .container > div:last-child {
@@ -159,12 +159,12 @@
     }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .top-navigation-bar .container > div:last-child {
         display: flex !important;
         align-items: center;
         opacity: 1 !important; /* Ujistí se, že není průhledná */
-        visibility: visible !important;
+        /*visibility: visible !important;
         position: relative !important; /* Pokud byla absolutně pozicovaná */
     }
 }
