@@ -1,3 +1,12 @@
+@media screen and (max-width: 767px) {
+    .sticky-mobile:not(.ordering-process):not(.paxio-merkur):not(.venus) .cart-count {
+        /* position: fixed !important; */
+        /* top: 18px !important; */
+        z-index: 10;
+    }
+}
+
+
 @media (max-width: 767px) and (max-width: 480px) {
     .top-navigation-bar .site-name a img {
         max-width: 150px!important;
