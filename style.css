@@ -74,11 +74,29 @@
     background-color: rgba(133, 187, 37, 0);
     }
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .top-navigation-bar .container > div.top-navigation-contacts {
-        top: 0px;
+        top: 0px;*/
     }
 }
+
+
+@media (max-width: 768px) {
+    .cart-widget-button {
+        position: relative !important; /* Ujistí se, že se nebude posouvat */
+        right: auto;
+        left: auto;
+        top: auto;
+        transform: none; /* Zruší případné posunutí */
+        z-index: 10 !important; /* Posune ji nad ostatní prvky */
+    }
+
+    .hamburger-menu {
+        z-index: 100 !important; /* Ujistí se, že menu je nad košíkem */
+    }
+}
+
+
 /*@media (min-width:768px) {
     .top-navigation-bar .container > div:last-child {
         display: none;
