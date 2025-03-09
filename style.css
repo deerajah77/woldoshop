@@ -1,12 +1,7 @@
-@media (min-width:768px) {
-    .top-navigation-bar {
-        background-color: #ffffff;
-    }
-}
 
 @media (min-width:768px) {
     .top-navigation-bar {
-        background-color: #ffffff;
+        background-color: #ffffff!important;
     }
 }
 
