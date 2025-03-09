@@ -85,6 +85,14 @@
     }
 }*/
 
+@media (max-width: 768px) {
+    .top-navigation-bar .container > div:last-child {
+        display: flex !important; /* Ujistí se, že je viditelná */
+        align-items: center;
+    }
+}
+
+
 /* 🔹 Hlavní obal – bannerová sekce */
 .banner-wrapper {
     text-align: center;
