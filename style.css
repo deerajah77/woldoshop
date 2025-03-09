@@ -86,6 +86,12 @@
     }
 }
 
+@media (min-width:768px) {
+    .top-navigation-bar {
+        background-color: #ffffff;
+    }
+}
+
 /* 🔹 Hlavní obal – bannerová sekce */
 .banner-wrapper {
     text-align: center;
