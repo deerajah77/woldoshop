@@ -47,10 +47,10 @@
 
 
 
-/*@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .sticky-mobile:not(.ordering-process):not(.paxio-merkur):not(.venus) .cart-count {
         position: static!important;
-        top: 10px!important;*/
+        top: 10px!important;
     }
 }
 
