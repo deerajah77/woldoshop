@@ -890,7 +890,7 @@ body {
 
 /*@media (max-width: 768px) {
     /* Skryje vyhledávací řádek, aby se zobrazila jen ikonka */
-    .search input[type="search"].form-control {
+    /*.search input[type="search"].form-control*/ {
         /*display: none !important;
     }
 
