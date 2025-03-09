@@ -854,3 +854,33 @@ body {
    color: var(--color-secondary-hover);
    font-size: 15px;
 }
+
+
+@media (max-width: 768px) {
+    /* Skryje vyhledávací řádek, aby se zobrazila jen ikonka */
+    .search input[type="search"].form-control {
+        display: none !important;
+    }
+
+    /* Zviditelní ikonku vyhledávání v horní liště */
+    .search .search-icon {
+        display: block !important;
+        width: 40px; /* Nastavení velikosti ikonky */
+        height: 40px;
+        background: none; /* Odstranění podivného pozadí */
+        cursor: pointer; /* Zajistí, že ikonka bude kliknutelná */
+    }
+
+    /* Zajistí správné zarovnání ikonky v liště */
+    .top-navigation-bar .search {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Zabrání problémům s nefunkčním klikáním */
+    .search .search-icon {
+        pointer-events: auto !important; /* Ujistí se, že ikonka je kliknutelná */
+    }
+}
+
