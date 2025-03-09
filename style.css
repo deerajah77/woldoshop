@@ -1,6 +1,6 @@
 @media (max-width: 767px) and (max-width: 480px) {
     .top-navigation-bar .site-name a img {
-        max-width: 150px;
+        max-width: 150px!important;
         padding-right: 25px!important;
     }
 }
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 767px) {
     body:not(.paxio-merkur):not(.venus) .top-navigation-bar .site-name {
-        height: 30px;
+        height: 30px!important;
     }
 }
 
