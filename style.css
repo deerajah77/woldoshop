@@ -1,56 +1,7 @@
-/*@media (max-width: 768px) {
-    .toggle-window[data-target="login"] {
-        display: inline-block !important; /* Ujistí se, že není skrytá */
-        /*width: 20px;
-        height: 20px;*/
-        /*background: url('https://cdn-icons-png.flaticon.com/512/747/747376.png') no-repeat center center; /* Ikonka uživatele */
-        /*background-size: contain;*/
-    }
-}
-
-
-/*@media (max-width: 768px) {
-    .cart-widget-button {
-        position: relative !important;
-        right: 10px !important;
-        top: 0 !important;
-        z-index: 10 !important;*/
-    }
-}
-
-
-/*@media (max-width: 768px) {
-    .top-navigation-tools .toggle-window {
-        margin: 0 10px; /* Přidá prostor mezi ikonami */
-    }
-}
-
-/*@media (max-width: 768px) {
-    .cart-widget-button {
-        position: relative !important;
-        right: 0 !important;
-        top: 0 !important;
-        transform: none !important;
-        z-index: 10 !important;
-    }
-
-    .hamburger-menu {
-        z-index: 100 !important; /* Ujistí se, že je nad košíkem */
-    }
-
-    .top-navigation-bar {
-        /*display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;*/
-    }
-}
-
-
-
-/*@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .sticky-mobile:not(.ordering-process):not(.paxio-merkur):not(.venus) .cart-count {
         position: static!important;
-        top: 10px!important;*/
+        top: 10px !important;
     }
 }
 
@@ -76,11 +27,11 @@
 }
 
 
-/*.navigation-in-bottom .dropdown .dropdown-menu {
+.navigation-in-bottom .dropdown .dropdown-menu {
     display: none;
 }
 .navigation-in-bottom .dropdown {
-    display: none;*/
+    display: none;
 }
 
 
@@ -123,53 +74,16 @@
     background-color: rgba(133, 187, 37, 0);
     }
 }
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
     .top-navigation-bar .container > div.top-navigation-contacts {
-        top: 0px;*/
+        top: 0px;
     }
 }
-
-
-@media (max-width: 768px) {
-    .cart-widget-button {
-        position: relative !important; /* Ujistí se, že se nebude posouvat */
-        right: auto;
-        left: auto;
-        top: auto;
-        transform: none; /* Zruší případné posunutí */
-        z-index: 10 !important; /* Posune ji nad ostatní prvky */
-    }
-
-    .hamburger-menu {
-        z-index: 100 !important; /* Ujistí se, že menu je nad košíkem */
-    }
-}
-
-
-@media (min-width:768px) {
+/*@media (min-width:768px) {
     .top-navigation-bar .container > div:last-child {
         display: none;
     }
-}
-
-/*@media (max-width: 768px) {
-    .top-navigation-bar .container > div:last-child {
-        display: flex !important; /* Ujistí se, že je viditelná */
-        align-items: center;*/
-    }
-}
-
-/*@media (max-width: 768px) {
-    .top-navigation-bar .container > div:last-child {
-        display: flex !important;
-        align-items: center;
-        opacity: 1 !important; /* Ujistí se, že není průhledná */
-        /*visibility: visible !important;
-        position: relative !important; /* Pokud byla absolutně pozicovaná */
-    }
-}
-
-
+}*/
 
 /* 🔹 Hlavní obal – bannerová sekce */
 .banner-wrapper {
@@ -433,9 +347,9 @@
     color: white;
 }
 
-.btn.btn-cart::after, a.btn.btn-cart::after, .btn.add-to-cart-button::after, a.btn.add-to-cart-button::after {
+/*.btn.btn-cart::after, a.btn.btn-cart::after, .btn.add-to-cart-button::after, a.btn.add-to-cart-button::after {
     display: none;
-    content: '\e918';
+    content: '\e918';*/
 }
 
 .btn.btn-conversion:hover, a.btn.btn-conversion:hover, .btn.btn-cart:hover, a.btn.btn-cart:hover {
@@ -796,14 +710,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #ffff;*/
 }
 
-@media (max-width: 768px) {
-  .search input[type="search"].form-control {
-    display: none !important;
-  }
-}
-
-
-
 /* Skrytí vyhledávacího řádku na mobilu a zobrazení jen ikonky */
 /*@media (max-width: 768px) {
   .search input[type="search"].form-control {
@@ -976,7 +882,7 @@ body {
 
 /*@media (max-width: 768px) {
     /* Skryje vyhledávací řádek, aby se zobrazila jen ikonka */
-    /*.search input[type="search"].form-control*/ {
+    .search input[type="search"].form-control {
         /*display: none !important;
     }
 
@@ -1001,4 +907,3 @@ body {
         /*pointer-events: auto !important; /* Ujistí se, že ikonka je kliknutelná */
     }
 }
-
