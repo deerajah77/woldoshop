@@ -1,3 +1,25 @@
+@media (max-width: 768px) {
+    .cart-widget-button {
+        position: relative !important;
+        right: 0 !important;
+        top: 0 !important;
+        transform: none !important;
+        z-index: 10 !important;
+    }
+
+    .hamburger-menu {
+        z-index: 100 !important; /* Ujistí se, že je nad košíkem */
+    }
+
+    .top-navigation-bar {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+}
+
+
+
 @media screen and (max-width: 767px) {
     .sticky-mobile:not(.ordering-process):not(.paxio-merkur):not(.venus) .cart-count {
         position: static!important;
