@@ -704,10 +704,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #24342C;
   color: white;
 }
-.search input[type="search"].form-control {
+/*.search input[type="search"].form-control {
   border-radius: 25px;
   border: 2px solid #7c7e8f;
-  background-color: #ffff;
+  background-color: #ffff;*/
 }
 
 @media (max-width: 768px) {
