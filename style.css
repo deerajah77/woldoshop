@@ -347,9 +347,9 @@
     color: white;
 }
 
-/*.btn.btn-cart::after, a.btn.btn-cart::after, .btn.add-to-cart-button::after, a.btn.add-to-cart-button::after {
+.btn.btn-cart::after, a.btn.btn-cart::after, .btn.add-to-cart-button::after, a.btn.add-to-cart-button::after {
     display: none;
-    content: '\e918';*/
+    content: '\e918';
 }
 
 .btn.btn-conversion:hover, a.btn.btn-conversion:hover, .btn.btn-cart:hover, a.btn.btn-cart:hover {
