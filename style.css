@@ -1,5 +1,6 @@
-/*.top-navigation-bar a, .top-navigation-bar .dropdown button {
-    display: none;*/
+.top-navigation-bar a, .top-navigation-bar .dropdown button {
+    color: rgba(124, 126, 143, 0);
+    color: rgba(124, 126, 143, 0);
 }
 @media (min-width:768px) {
     .top-navigation-bar {
