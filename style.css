@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
     .toggle-window[data-target="login"] {
         display: inline-block !important; /* Ujistí se, že není skrytá */
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
         background: url('https://cdn-icons-png.flaticon.com/512/747/747376.png') no-repeat center center; /* Ikonka uživatele */
         background-size: contain;
     }
