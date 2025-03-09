@@ -39,9 +39,9 @@
     }
 
     .top-navigation-bar {
-        display: flex !important;
+        /*display: flex !important;
         justify-content: space-between !important;
-        align-items: center !important;
+        align-items: center !important;*/
     }
 }
 
