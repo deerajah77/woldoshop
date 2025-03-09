@@ -737,9 +737,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .search .btn.btn-default, .search a.btn.btn-default {
-  border-radius: 25px;
+  /*border-radius: 25px;
   background-color: #7c7e8f;
-  color: #7c7e8f;
+  color: #7c7e8f;*/
 }
 .search input[type="search"].form-control:focus {
   border-color: #7c7e8f;
