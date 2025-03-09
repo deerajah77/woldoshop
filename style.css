@@ -4,6 +4,12 @@
     }
 }
 
+@media (min-width:768px) {
+    .top-navigation-bar {
+        background-color: #ffffff;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .sticky-mobile:not(.ordering-process):not(.paxio-merkur):not(.venus) .cart-count {
         position: static!important;
