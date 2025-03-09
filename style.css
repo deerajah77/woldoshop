@@ -711,20 +711,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 /* Skrytí vyhledávacího řádku na mobilu a zobrazení jen ikonky */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .search input[type="search"].form-control {
     display: none; /* Skryje řádek */
   }
 
   .search .search-icon {
-    display: block !important; /* Ujistí se, že ikonka je viditelná */
+    /*display: block !important; /* Ujistí se, že ikonka je viditelná */
   }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .cart-widget-button {
         position: relative !important; /* Vrátí správnou pozici */
-        right: auto;
+        /*right: auto;
         left: auto;
         top: auto;
         transform: none; /* Odstraní posunutí */
@@ -732,7 +732,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 
     .hamburger-menu {
-        z-index: 200; /* Zvýšení vrstvy, aby bylo menu nad košíkem */
+        /*z-index: 200; /* Zvýšení vrstvy, aby bylo menu nad košíkem */
     }
 }
 
