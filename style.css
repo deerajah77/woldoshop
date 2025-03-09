@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     .sticky-mobile:not(.ordering-process):not(.paxio-merkur):not(.venus) .cart-count {
-        /* position: fixed !important; */
+        position: static !important;
         /* top: 18px !important; */
         z-index: 10;
     }
