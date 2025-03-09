@@ -1,4 +1,6 @@
-
+.top-navigation-bar a, .top-navigation-bar .dropdown button {
+    display: none;
+}
 @media (min-width:768px) {
     .top-navigation-bar {
         background-color: #ffffff!important;
