@@ -19,7 +19,7 @@
 }
 
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .top-navigation-tools .toggle-window {
         margin: 0 10px; /* Přidá prostor mezi ikonami */
     }
