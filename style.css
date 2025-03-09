@@ -741,8 +741,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #7c7e8f;
   color: #7c7e8f;*/
 }
-.search input[type="search"].form-control:focus {
-  border-color: #7c7e8f;
+/*.search input[type="search"].form-control:focus {
+  border-color: #7c7e8f;*/
 }
 .mobile.one-column-body .slider-wrapper, .desktop.one-column-body .slider-wrapper, .mobile.multiple-columns-body .slider-wrapper {
   background-color: white;
