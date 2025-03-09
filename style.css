@@ -685,6 +685,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border: 2px solid #7c7e8f;
   background-color: #ffff;
 }
+
+/* Skrytí vyhledávacího řádku na mobilu a zobrazení jen ikonky */
+@media (max-width: 768px) {
+  .search input[type="search"].form-control {
+    display: none; /* Skryje řádek */
+  }
+
+  .search .search-icon {
+    display: block !important; /* Ujistí se, že ikonka je viditelná */
+  }
+}
+
 .search .btn.btn-default, .search a.btn.btn-default {
   border-radius: 25px;
   background-color: #7c7e8f;
