@@ -697,6 +697,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 }
 
+@media (max-width: 768px) {
+    .cart-widget-button {
+        position: relative !important; /* Vrátí správnou pozici */
+        right: auto;
+        left: auto;
+        top: auto;
+        transform: none; /* Odstraní posunutí */
+        z-index: 100; /* Zajistí, že se nebude překrývat s menu */
+    }
+
+    .hamburger-menu {
+        z-index: 200; /* Zvýšení vrstvy, aby bylo menu nad košíkem */
+    }
+}
+
 .search .btn.btn-default, .search a.btn.btn-default {
   border-radius: 25px;
   background-color: #7c7e8f;
