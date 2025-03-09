@@ -868,9 +868,9 @@ body {
     /*background-color: rgba(104, 111, 119, 0.18);*/
     }
 }
-@media (min-width:768px) {
+/*@media (min-width:768px) {
   .top-navigation-bar {
-    background-color: #D8CFC6;
+    background-color: #D8CFC6;*/
    }
 }
 .top-navigation-bar a, .top-navigation-bar .dropdown button {
