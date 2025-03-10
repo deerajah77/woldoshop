@@ -1,5 +1,5 @@
 .footer-item.footer-item-newsletter .form-group.consents label a {
-    color: var(--footer-highlighted-color);
+    color: var(--footer-highlighted-color)!important;
 }
 @media (min-width: 992px) {
     .top-navigation-bar .container > div.top-navigation-contacts {
