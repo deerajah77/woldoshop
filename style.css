@@ -102,10 +102,11 @@
         top: 0px;
     }
 }
-@media (min-width:768px) {
+/*je to horní pruh?*/
+/*@media (min-width:768px) {
     .top-navigation-bar .container > div:last-child {
         /*display: none;*/
-        background: white;
+        /*background: white;*/
     }
 }
 
