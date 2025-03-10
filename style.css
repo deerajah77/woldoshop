@@ -1,6 +1,6 @@
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     .top-navigation-bar {
-        background: white;
+        background: white;*/
     }
 }
 
@@ -15,9 +15,9 @@
     color: rgba(124, 126, 143, 0);
     color: rgba(124, 126, 143, 0);*/
 }
-@media (min-width:768px) {
+/*@media (min-width:768px) {
     .top-navigation-bar {
-        background-color: #ffffff!important;
+        background-color: #ffffff!important;*/
     }
 }
 
