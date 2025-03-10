@@ -1,3 +1,6 @@
+.footer-item.footer-item-newsletter .form-group.consents label a {
+    color: var(--footer-highlighted-color);
+}
 @media (min-width: 992px) {
     .top-navigation-bar .container > div.top-navigation-contacts {
         right: 150px;
