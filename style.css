@@ -1,5 +1,5 @@
 .fb_iframe_widget {
-    display: none;
+    display: none!important;
 }
 
 .footer-item.footer-item-newsletter .form-group.consents label a {
