@@ -1,3 +1,7 @@
+._89n_:hover {
+    display: none;
+}
+
 .footer-item.footer-item-newsletter .form-group.consents label a {
     color: var(--footer-highlighted-color)!important;
 }
