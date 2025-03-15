@@ -1,3 +1,7 @@
+.footer-icons .footer-icon {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 @media (min-width: 768px) {
     .homepage-box.welcome-wrapper {
         margin-top: -30px!important;
