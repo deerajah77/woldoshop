@@ -1,3 +1,14 @@
+.in-index #dklabBanplusIkony .dklabBanplusIkona i, .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg {
+    width: 100px;
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    /* background: #000000; */
+}
+
+
 #dklabBanplusUvod .dklabBanplusBox img {
     display: flex;
     width: 75%;
