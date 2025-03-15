@@ -1,3 +1,8 @@
+.btn.btn-conversion, a.btn.btn-conversion {
+    justify-content: center;
+}
+
+
 .p-info-wrapper .p-final-price-wrapper .price-final {
     color: var(--color-secondary);
     font-size: 30px;
