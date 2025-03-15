@@ -67,6 +67,15 @@
     padding-bottom: 0;
 }
 
+/* Styl pro mobilní telefony (max-width: 767px) */
+@media (max-width: 767px) {
+    .middle-banners-wrapper {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+ }
+}
+
 @media (min-width: 768px) {
     .homepage-box.welcome-wrapper {
         margin-top: 0px;
