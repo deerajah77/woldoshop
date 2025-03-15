@@ -1,15 +1,15 @@
 .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg img {
-    max-width: 125%;
-    max-height: 125%;
-    margin-top: -10px;
+    max-width: 125%!important;
+    max-height: 125%!important;
+    margin-top: -10px!important;
 }
 
 .in-index #dklabBanplusIkony .dklabBanplusIkona i, .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg {
-    width: 100px;
-    height: 100px;
-    line-height: 50px;
+    width: 100px!important;
+    height: 100px!important;
+    line-height: 50px!important;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 50px!important;
 }
 
 
