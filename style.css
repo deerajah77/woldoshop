@@ -1,3 +1,7 @@
+.in-index #dklabBanplusIkony .dklabBanplusIkona i, .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg {
+    background: rgba(255, 255, 255, 0)!important;
+}
+
 #dklabBanplusIkony {
     padding: 15px 0px 0px 0px!important;
     background-color: rgba(255, 255, 255, 0)!important;
