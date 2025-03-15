@@ -1,9 +1,14 @@
+@media (min-width: 768px) {
+    .homepage-box.welcome-wrapper {
+        margin-top: -30px;
+    }
+}
+
 @media (min-width: 992px) {
     .products-group {
         margin-bottom: 30px;
     }
 }
-
 
 .middle-banners-wrapper {
     margin-top: 25px;
