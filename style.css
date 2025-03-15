@@ -1,3 +1,9 @@
+.p-info-wrapper .p-final-price-wrapper .price-final {
+    color: var(--color-secondary);
+    font-size: 30px;
+}
+
+
 .fb_iframe_widget {
     display: none!important;
 }
