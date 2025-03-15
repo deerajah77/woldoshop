@@ -1,4 +1,9 @@
 #dklabBanplusUvod .dklabBanplusBox img {
+    display: flex;
+    width: 85%;
+}
+
+#dklabBanplusUvod .dklabBanplusBox img {
     border-radius: 15px;
 }
 
