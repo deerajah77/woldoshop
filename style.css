@@ -22,9 +22,19 @@
     background-color: rgba(255, 255, 255, 0);
 }
 
-/*@media (min-width: 768px) {
+/* Styl pro PC */
+@media (min-width: 768px) {
     .homepage-box.welcome-wrapper {
-        margin-top: -30px!important;*/
+        margin-top: -30px !important;
+    }
+}
+
+/* Styl pro mobilní telefony (max-width: 767px) */
+@media (max-width: 767px) {
+    .homepage-box.welcome-wrapper {
+        margin-top: -30px; /* Např. menší odsazení nebo jiné zarovnání */
+        /*padding: 15px; /* Přidání vnitřního odsazení pro lepší čitelnost */
+        /*text-align: center; /* Zarovnání obsahu na střed */
     }
 }
 
