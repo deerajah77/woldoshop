@@ -1,9 +1,9 @@
 @media (max-width: 767px) {
     .products-group {
-        margin-bottom: 0px;
+        margin-bottom: 0px!important;
   }
     .banner-wrapper {
-    margin-bottom: 0px;
+    margin-bottom: 0px!important;
   }
 }
 
