@@ -19,6 +19,9 @@
 .shipping-options-popup .h1:not(.advanced-order-suggestion), .advanced-order .h1:not(.advanced-order-suggestion) {
     background: var(--basket-choose-box-border);
 }
+.extras-wrap .extra-item.is-free-shipping span strong {
+    color: var(--color-secondary-hover);
+}
 
 .cart-widget-button.is-free-shipping {
     background-color: rgba(133, 187, 37, 0.4)!important;
