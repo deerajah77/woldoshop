@@ -1,3 +1,22 @@
+.header-background-light.external-fonts-loaded.bonus-mehub-150340.js-focus-visible {
+    --scrollbar-width: 0px;
+    --vh: 11.2px;
+    --side-panel-header-bg: #292929;
+    --side-panel-header-color: #ffffff;
+    --basket-bg: #e8f5e2;
+    --basket-choose-box-bg: rgba(133, 187, 37, 0.4)!important;
+    --basket-choose-box-border: var(--color-tertiary-hover)!important;
+    --basket-discount-bg: #fed9de;
+    --basket-free-delivery-bg: #e6eaf8;
+    --basket-free-delivery-top-bg: #d0d8f2;
+    --footer-bg: #292929;
+    --footer-bottom-bg: #0f0f0f;
+    --footer-bottom-color: #ffffff;
+    --footer-color: #7c7e8f;
+    --footer-color-hover: #ffffff;
+    --footer-highlighted-color: var(--color-primary);
+}
+
 .cart-widget-button.is-free-shipping {
     background-color: rgba(133, 187, 37, 0.4)!important;
 }
