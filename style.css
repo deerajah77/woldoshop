@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
- h4, h5, h6, .h4, .h5, .h6 {
+ /*h4, h5, h6, .h4, .h5, .h6 {
     margin-top: 0px!important;
     margin-bottom: 0px!important;
 }
@@ -30,7 +30,7 @@
     margin-bottom: 0px;
   }
     .body-banners > div {
-    margin: 0px 0;
+    margin: 0px 0;*/
 }
 }
 
