@@ -1,11 +1,10 @@
-.banner-wrapper {
-    margin-bottom: 0px;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .products-group {
         margin-bottom: 0px;
-    }
+  }
+    .banner-wrapper {
+    margin-bottom: 0px;
+  }
 }
 
 
