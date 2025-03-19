@@ -30,6 +30,8 @@ a, .top-navigation-bar .project-phone, .top-navigation-menu-trigger:hover::befor
 }
 a, .link-like {
     text-decoration: underline;
+    font-weight: bold;
+}
 }
 
 .cart-widget-button.is-free-shipping {
