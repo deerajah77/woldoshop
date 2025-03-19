@@ -1,14 +1,14 @@
 @media (max-width: 768px) {
  h4, h5, h6, .h4, .h5, .h6 {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
 }
  .is-products-slider.one-column-body .products-block > div {
     width: 100%;
-    padding: 0px 0;
+    padding: 0px!important 0;
 }
 .body-banners > div {
-    margin: 0px 0;
+    margin: 0px!important 0;
 }
  .homepage-box.welcome-wrapper {
         margin-bottom: 0px!important;
@@ -24,7 +24,7 @@
  .middle-banners-wrapper {
         margin-top: 0px!important;
         margin-bottom: 0px!important;
-        padding-bottom: 0;
+        padding-bottom: 0!important;
     }
   h4, .h4 {
     margin-bottom: 0px;
