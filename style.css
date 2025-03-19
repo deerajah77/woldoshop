@@ -1,12 +1,16 @@
+.cart-widget-button.is-free-shipping {
+    background-color: rgba(133, 187, 37, 0.4)!important;
+}
+
 .cart-free-shipping.is-free-shipping div strong {
-    color: var(--color-secondary-hover);
+    color: var(--color-secondary-hover)!important;
 }
 
 .cart-free-shipping.is-free-shipping::before, .cart-free-shipping.is-free-shipping::after {
-    background-color: var(--color-primary-hover);
+    background-color: var(--color-primary-hover)!important;
 }
 .cart-free-shipping.is-free-shipping div::before {
-    color: var(--color-secondary-hover);
+    color: var(--color-secondary-hover)!important;
 }
 
 @media (max-width: 767px) {
