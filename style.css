@@ -5,6 +5,11 @@
     .banner-wrapper {
     margin-bottom: 0px!important;
   }
+    .middle-banners-wrapper {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+        padding-bottom: 0;
+    }
 }
 
 
