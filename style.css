@@ -20,6 +20,10 @@
     background-color: rgba(133, 187, 37, 0.4);
 }
 
+.extras-wrap .extra-item.is-free-shipping .extra-content {
+    background-color: rgba(133, 187, 37, 0.41);
+}
+
 .shipping-options-popup .h1:not(.advanced-order-suggestion), .advanced-order .h1:not(.advanced-order-suggestion) {
     background: var(--basket-choose-box-border);
 }
