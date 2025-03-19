@@ -1,3 +1,9 @@
+.is-products-slider.one-column-body .products-block > div {
+    width: 100%;
+    padding: 0px 0;
+}
+
+
 .body-banners > div {
     margin: 0px 0;
 }
