@@ -16,6 +16,10 @@
     --footer-color-hover: #ffffff;
     --footer-highlighted-color: var(--color-primary);
 }
+.summary-wrapper {
+    background-color: rgba(133, 187, 37, 0.4);
+}
+
 .shipping-options-popup .h1:not(.advanced-order-suggestion), .advanced-order .h1:not(.advanced-order-suggestion) {
     background: var(--basket-choose-box-border);
 }
