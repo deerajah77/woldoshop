@@ -1,3 +1,7 @@
+.body-banners > div {
+    margin: 0px 0;
+}
+
 @media (max-width: 767px) {
     .products-group {
         margin-bottom: 0px!important;
@@ -12,6 +16,9 @@
     }
     h4, .h4 {
     margin-bottom: 0px;
+  }
+    .body-banners > div {
+    margin: 0px 0;
 }
 }
 
