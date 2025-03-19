@@ -95,16 +95,16 @@
     background-color: rgba(255, 255, 255, 0)!important;
 }
 
-/*.in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg img {
+.in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg img {
     max-width: 125%!important;
     max-height: 125%!important;
-    margin-top: -10px!important;*/
+    margin-top: -10px!important;
 }
 
 .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg img {
-    max-width: 130%!important;
+    /*max-width: 130%!important;
     max-height: 130%!important;
-    margin-top: -10px!important;
+    margin-top: -10px!important;*/
     padding-right: 30px!important;
     padding-bottom: 0px!important;
     padding-top: 25px!important;
