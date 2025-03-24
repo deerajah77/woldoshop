@@ -1,5 +1,5 @@
 .cart-free-shipping div::before {
-    color: var(--basket-choose-box-border);
+    color: var(--basket-choose-box-border)!important;
 }
 
 .cart-free-shipping div strong {
