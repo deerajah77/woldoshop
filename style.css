@@ -1,5 +1,5 @@
 .cart-free-shipping::before {
-    color: var(--color-secondary-hover)!important;
+    background-color: var(--color-secondary-hover)!important;
 }
 
 
