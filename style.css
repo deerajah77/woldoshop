@@ -1,5 +1,5 @@
 .cart-widget-button {
-    background-color: rgba(133, 187, 37, 0.4);
+    background-color: rgba(133, 187, 37, 0.4)!important;
 }
 
 .cart-free-shipping div::before {
