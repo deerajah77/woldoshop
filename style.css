@@ -1,6 +1,9 @@
 .cart-free-shipping::before {
     background-color: var(--color-secondary-hover)!important;
 }
+.cart-free-shipping::before {
+    background-color: rgba(133, 187, 37, 0.4)!important;
+}
 
 
 body {
