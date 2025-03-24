@@ -1,3 +1,6 @@
+.cart-free-shipping div strong {
+    color: var(--basket-choose-box-border);
+}
 
 .cart-free-shipping::before {
     background-color: var(--color-secondary-hover)!important;
