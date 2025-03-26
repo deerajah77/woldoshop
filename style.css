@@ -46,7 +46,7 @@ body {
 }
 
 .shipping-options-popup .h1:not(.advanced-order-suggestion), .advanced-order .h1:not(.advanced-order-suggestion) {
-    background: /*var(--basket-choose-box-border)*/#0f0f0f;
+    background: #0f0f0f!important;
 }
 .extras-wrap .extra-item.is-free-shipping span strong {
     color: var(--color-secondary-hover);
