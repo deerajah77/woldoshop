@@ -582,10 +582,11 @@ a, .link-like {
     display: flex;
     background-color: #24342C;
     gap: 15px;
-    max-width: 900px; /* Omezení šířky */
+    max-width: 1200px; /* Omezení šířky */
     margin: 0 auto;
     padding: 20px;
     justify-content: center;
+    border-radius: 15px;
 }
 
 
