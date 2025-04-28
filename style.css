@@ -577,6 +577,17 @@ a, .link-like {
     background-color: #24342C;
 }
 
+/* 🔹 Hlavní kontejner pro karty */
+#custom-cards-section4 {
+    display: flex;
+    background-color: #24342C;
+    gap: 15px;
+    max-width: 900px; /* Omezení šířky */
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+}
+
 
 /* 🔹 Hlavní kontejner pro karty */
 #custom-cards-section3 {
