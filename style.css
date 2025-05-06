@@ -1,7 +1,4 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+body {
     text-align: center!important;
 }
 
@@ -34,7 +31,7 @@
 
 
 body {
-    text-align: left!important;
+    /*text-align: left!important;*/
 }
 
 .header-background-light.external-fonts-loaded.bonus-mehub-150340.js-focus-visible {
