@@ -597,6 +597,7 @@ a, .link-like {
     padding: 20px;
     justify-content: center;
     border-radius: 15px;
+    image-border-radius: 15px;
 }
 
 
