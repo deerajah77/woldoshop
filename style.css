@@ -580,7 +580,7 @@ a, .link-like {
 /* 🔹 Hlavní kontejner pro karty */
 #custom-cards-section4 {
     display: flex;
-    background-color: #24342C;
+    /*background-color: #24342C;*/
     gap: 15px;
     /*max-width: 1200px; /* Omezení šířky */
     margin: 0 auto;
