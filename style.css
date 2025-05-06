@@ -1,3 +1,6 @@
+img {
+    border-radius: 15px!important;
+}
 .p-detail-tabs-wrapper .detail-parameters td {
     text-align: left!important;
 }
