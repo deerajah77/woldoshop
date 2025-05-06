@@ -597,7 +597,6 @@ a, .link-like {
     padding: 20px;
     justify-content: center;
     border-radius: 15px;
-    image-border-radius: 15px;
 }
 
 
@@ -630,6 +629,8 @@ a, .link-like {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    border-radius: 15px;
+    
 }
 
 /* 🔹 Obsah karty */
