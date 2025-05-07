@@ -1,0 +1,156 @@
+/*.category-title {
+    text-align: center;*/
+}
+/* Vycentrovani welcome wrapperu */
+/*@media (min-width: 992px) {
+ .homepage-texts-wrapper {
+   justify-content: center;*/
+  }
+}
+/* Popripade roztazeni na celou sirku (optional) */
+/*@media (min-width: 992px) {
+  .homepage-texts-wrapper:has(.top-products-wrapper) .welcome-wrapper {
+    max-width: unset;
+  }
+}
+.vote-initials, .vote-pic {
+  display: none;
+}
+.hodnoceni .vote-content {
+  padding-bottom: 20px;
+  margin-left: 0px;
+}
+.languagesMenu__content {
+  display: none;
+}
+.vote-rating, .vote-admin-response {
+  padding-right: 25px !important;
+  width: 110%;
+}
+.vlajecky {
+  display: none;*/
+}
+/** blog a slovnik**/
+/*.in-blog .content-wrapper, .in-slovnik-pojmu .content-wrapper {
+ max-width: 1000px;
+ margin: auto;
+ padding: 0px;*/
+}
+/*.id--23 .content-wrapper p a {
+ text-decoration: underline;
+}
+.in-blog .content-wrapper img {
+ width: 100%;
+ margin: auto;
+ padding: 20px 0px 20px 0px !important;
+}*/
+/*.in-blog h1,.in-blog h2, .in-blog h3 {
+ text-align: center;*/
+}
+/*.in-blog .overall-wrapper, .in-slovnik-pojmu .overall-wrapper {
+ background: #F5F5F5;
+}
+.in-blog .content p {
+ padding-left: 0px;
+ padding-right: 0px;
+} 
+.in-blog .breadcrumbs {
+  padding-top: 20px;*/
+}
+/** blog a slovnik**/
+/*.in-blog .content-wrapper, .in-slovnik-pojmu .content-wrapper {
+ max-width: 1000px;
+ margin: auto;
+ padding: 0px;*/
+}
+/*.id--23 .content-wrapper p a {
+  text-decoration: underline;
+}
+.in-blog .content-wrapper img {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0px 20px 0px !important;
+}
+.in-blog h1,.in-blog h2, .in-blog h3 {
+  text-align: center;
+}
+.in-blog .overall-wrapper, .in-slovnik-pojmu .overall-wrapper {
+  background: #F5F5F5;
+}
+.in-blog .content p {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.in-blog .breadcrumbs {
+  padding-top: 20px;
+}
+}
+.link-icon {
+margin-left: 15px;
+}
+body {
+font-size: 16px;
+}*/
+
+/*o nas*/
+/*.in-o-nas .breadcrumbs, .in-o-nas header h1{
+display: none;
+}
+.in-o-nas p, h1, h2, h3, h4, h5 {
+text-align: center;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.in-o-nas h2, h5 {
+  color: #86BC25;
+}
+.in-o-nas h2 {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+.about-header {
+margin: 20px 0% 20px 0%;
+overflow: hidden;
+background: rgb(217,226,223); /* Old browsers */
+/*background: -moz-linear-gradient(left,  rgba(217,226,223,1) 0%, rgba(243,243,243,1) 100%); /* FF3.6-15 */
+/*background: -webkit-linear-gradient(left,  rgba(217,226,223,1) 0%,rgba(243,243,243,1) 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to right,  rgba(217,226,223,1) 0%,rgba(243,243,243,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9e2df', endColorstr='#f3f3f3',GradientType=1 ); /* IE6-9 */
+}
+/*@media only screen and (max-width: 600px) {
+.about-header img {
+max-height: 350px;
+}
+.about-header-motto {
+column-count: 3;*/
+}
+/*blog kategorie*/
+
+/*.news-item .text .description p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.news-item {
+  width: 100%;
+}
+.news-item .image img {
+  max-width: 450px;
+  height: 250px;
+  object-fit: cover;
+}
+.in-index .news-item .image img {
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.news-item .title {
+  margin-top: 20px;
+}
+[class~=blog-hp] [class~=news-item] [class~=text] [class~=title] {
+  font-size: 24px;*/
+}
