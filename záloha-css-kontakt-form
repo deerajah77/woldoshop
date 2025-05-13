@@ -1,0 +1,122 @@
+<---style>
+/* Vycentrování nadřazeného kontejneru */
+.in-kontakty .article-detail,
+.in-kontakty .page-content,
+.in-kontakty .rte {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Flex wrapper */
+.contact-address__flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+/* Levý panel (formulář) */
+.contact-address__left-panel {
+  flex: 0 1 55%;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+/* Pravý panel (kontaktní info) */
+.contact-address__right-panel {
+  flex: 0 1 42%;
+  background: #fff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  border: 2px solid var(--color-tertiary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+/* Formulář */
+.contact-address__left-panel form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Mobilní přepnutí */
+@media (max-width: 768px) {
+  .contact-address__left-panel,
+  .contact-address__right-panel {
+    flex: 0 1 100%;
+    padding-right: 0;
+  }
+}
+</---style>
+<---style>
+.contact-address__flex-wrapper {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  max-width: 1200px !important;
+  margin: 2rem auto !important;
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
+}
+
+.contact-address__left-panel {
+  flex: 0 1 55% !important;
+  padding-right: 2rem !important;
+  box-sizing: border-box !important;
+}
+
+.contact-address__right-panel {
+  flex: 0 1 42% !important;
+  background: #fff !important;
+  padding: 3rem 2rem !important;
+  border-radius: 20px !important;
+  border: 2px solid var(--color-tertiary) !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05) !important;
+  box-sizing: border-box !important;
+}
+
+.contact-address__left-panel form {
+  width: 100% !important;
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+  .contact-address__left-panel,
+  .contact-address__right-panel {
+    flex: 0 1 100% !important;
+    padding-right: 0 !important;
+  }
+}
+</---style>
+<---style>
+/* Pomůžeme layoutu i v deformovaném DOM */
+.contact-address__flex-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+/* Aby se i rodič p choval korektně */
+p:has(> .contact-address__flex-wrapper) {
+  display: block !important;
+  all: unset;
+}
+</---style>
