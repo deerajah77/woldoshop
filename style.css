@@ -191,38 +191,7 @@ a, .link-like {
     }
 }
 
-.in-index #dklabBanplusIkony .dklabBanplusIkona i, .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg {
-    background: rgba(255, 255, 255, 0)!important;
-}
 
-#dklabBanplusIkony {
-    padding: 15px 0px 0px 0px!important;
-    background-color: rgba(255, 255, 255, 0)!important;
-}
-
-.in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg img {
-    max-width: 125%!important;
-    max-height: 125%!important;
-    margin-top: -10px!important;
-}
-
-.in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg img {
-    /*max-width: 130%!important;
-    max-height: 130%!important;
-    margin-top: -10px!important;*/
-    padding-right: 30px!important;
-    padding-bottom: 0px!important;
-    padding-top: 25px!important;
-    padding-left: 0px!important;
-}
-
-.in-index #dklabBanplusIkony .dklabBanplusIkona i, .in-index #dklabBanplusIkony .dklabBanplusIkona .dklabBanplusIkonaImg {
-    width: 100px!important;
-    height: 100px!important;
-    line-height: 50px!important;
-    text-align: center;
-    border-radius: 50px!important;
-}
 
 #dklabBanplusUvod .dklabBanplusBox img {
     display: flex;
