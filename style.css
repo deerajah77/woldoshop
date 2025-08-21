@@ -224,7 +224,10 @@ a, .link-like {
     border-radius: 50px!important;
 }
 
-
+#dklabBanplusUvod .dklabBanplusBox img {
+    display: flex;
+    border-radius: 15px;
+}
 
 
 .btn.btn-conversion, a.btn.btn-conversion {
