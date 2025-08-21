@@ -225,11 +225,7 @@ a, .link-like {
 }
 
 
-#dklabBanplusUvod .dklabBanplusBox img {
-    display: flex;
 
-    border-radius: 15px;
-}
 
 .btn.btn-conversion, a.btn.btn-conversion {
     justify-content: center;
