@@ -227,7 +227,7 @@ a, .link-like {
 
 #dklabBanplusUvod .dklabBanplusBox img {
     display: flex;
-    width: 75%;
+    width: 100%;
     border-radius: 15px;
 }
 
