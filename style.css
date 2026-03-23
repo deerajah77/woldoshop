@@ -956,10 +956,11 @@ body {
 }
 .footer-item.footer-item-newsletter .compact-form .btn {
   background-color: #24342C;
+  border-color: rgba(176, 201, 105, 0)!important;
 }
 .footer-item.footer-item-newsletter .compact-form .btn:hover {
   background-color: #B0CA69!important;
-  border-color: #B0CA69!important;
+  border-color: rgba(176, 201, 105, 0)!important;
 }
 .footer-item.footer-item-newsletter .form-group.consents label a {
   color: #4e443a;
