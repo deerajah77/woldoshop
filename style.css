@@ -972,9 +972,13 @@ body {
   border-color: var(--color-primary-hover);
   background-color: var(--color-primary-hover);
 }
+.btn.btn-default, a.btn.btn-default: hover {
+  border-color: #ffff!important;
+   background-color: #ffff!important;
+}
 .btn.btn-default: hover, a.btn.btn-default: hover {
-   border-color: #ffffff!important;
-   background-color: #ffffff!important;
+   border-color: #4e443a;
+   background-color: #4e443a;
 }
 .welcome {
    border-radius: 0px;
