@@ -973,8 +973,8 @@ body {
   background-color: var(--color-primary-hover);
 }
 .btn.btn-default: hover, a.btn.btn-default: hover {
-   border-color: #4e443a;
-   background-color: #4e443a;
+   border-color: #ffffff!important;
+   background-color: #ffffff!important;
 }
 .welcome {
    border-radius: 0px;
